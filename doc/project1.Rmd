@@ -1,10 +1,10 @@
 
 ---
-title: IF TRUMP COPED WITH COVID-19 SUCCESSFULLY, WOULD HE WIN THE ELECTION?(job approve
-  rating)
+title: "IF TIME GOES BACK WITH NO COVID-19,WILL TRUMP WIN?"
 author: "Weiwei Song"
 date: "1/22/2021"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -44,10 +44,11 @@ number_row<-nrow(trump_data)
 
 ## Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job?
 
-The questionare have two Form in the Trump Job Approval category.
+This questionare have two Form in the Trump Job Approval category.
 
 
 ![ ](../figs/q1.png)
+
 Should health care and coronavirus(COVID-19) be merged as one variable? Let's see the distribution of people's answers iterms of this question. 
 
 
@@ -76,7 +77,7 @@ ggplot(data1,aes(Answer,prop,fill=factor(Form)))+
   labs(title="Distribution of  answers of two form of questions", subtitle="Form=1:COVID-19  Form=2: health care",x="Answer",y="Probability", fill="Form")
 ```
 
-From the plot, people are more likely to hold an approval attitude towards Trump's job handling COVID-19 than health care. Overall, difference is not big, except for the case that answer is "Neither approve or Disapprove". 
+From the plot, people are more likely to hold an approval attitude towards Trump's job handling COVID-19 than health care. Overall, difference is not big, except for the case that answer is "Neither approve or Disapprove".  
 
 ```{r include=FALSE}
 g_data<-graph_data%>%
@@ -84,6 +85,8 @@ g_data<-graph_data%>%
   mutate(attitude=if_else(value<4,"Approve","Disapprove"))%>%
   group_by(key,attitude)%>%
   summarise(prop1=sum(n)/number_row)
+
+  
 ```
 
 
@@ -113,11 +116,39 @@ ggplot(g_data,aes(key,prop1,fill=factor(attitude),label=signif(prop1*100,2)))+
 
 
 ```  
-#The approval rate of Trump's Job in the field of economy is really high. 
-#But look at the bar of Healthcare/COVID, the difference actually really small. 
+
+The approval rate of Trump's Job in the field of economy is really high. 
+But look at the bar of Healthcare/COVID, the difference actually really small. 
 
 
-##Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase?
+
+
+
+##Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase? How about the job approval rate?
+
+```{r echo=FASLE,warning=FALSE}
+g1<-trump_data%>%
+  select(Job,Answer,economy)%>%
+  filter(Job!=4,Answer!=4,economy!=4)%>%
+  transmute(Job=if_else(Job>4,"disapprove","approve"),
+           Covid=if_else(Answer>4,"disapprove","approve"),
+           economy=if_else(economy>4,"disapprove","approve"))
+
+ggplot(g1,aes(Job,Covid,fill=factor(Covid)))+
+  geom_col()+
+    theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Paired",name="")+
+  labs(title="The distribution of Trump's rating in Job and Covid",x="",y="")
+
+
+ggplot(g1,aes(economy,Covid,fill=factor(Covid)))+
+  geom_col()+
+    theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Assent",name="")+
+  labs(title="The distribution of Trump's rating in economy and Covid",x="",y="")
+
+
+```
 
 ```{r echo=FALSE,message=FALSE}
 b<-trump_data%>%
@@ -132,10 +163,15 @@ ggplot(b,aes(value,fill=(key)))+
 
 ```
 
-#People are more concerned about the economy decline as an important effect of pandemic.
-#It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing at least in the economy and healthcare fields. 
 
-##Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19.
+
+High consitency in the people's view in the Job approval rating and healthcare/covid approval rating 
+
+People are more concerned about the economy decline as an important effect of pandemic.
+
+It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing. 
+
+##Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19. Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
 ```{r include= FALSE}
 g<-anes_pilot_2020%>%
   transmute(sex,age=2020-birthyr,educ, covid=covidpres7,healthcare=healthcarepres7)%>%
@@ -159,7 +195,6 @@ g<-anes_pilot_2020%>%
                             Covid>=5~"disapprove"))%>%
   select(-covid,-healthcare)%>%
   drop_na()
-summary(g)
 nu_row<-nrow(g)
 ```
 
@@ -202,6 +237,8 @@ ggplot(g_age,aes(Age,prop,fill=factor(attitude))) +
   labs(title="Age difference in Trump's Job Approval handling COVID-19",x="",y="")
 ```
 
+
+
 ```{r echo=FALSE}
 # education
 g_edu<-g%>%
@@ -234,15 +271,45 @@ ggplot(g_ed,aes(edu_degree,prop,fill=factor(attitude))) +
   labs(title="Education difference in Trump's Job Approval handling COVID-19",x="",y="")
 # this is suprsing
 ```
+```{r echo=FASLE}
+f<-anes_pilot_2020%>%
+  select(vote20jb,covid1,covid2)%>%
+  na_if(9)%>%
+  drop_na()%>%
+  filter(vote20jb <3)%>%
+  mutate(vote20jb=if_else(vote20jb==1,"Trump","Biden"))
+  
+
+  
+ggplot(f%>%
+  group_by(covid1)%>%
+  count(vote20jb),aes(covid1,n,fill=vote20jb))+
+  geom_col(position="dodge")+
+  theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Set1",name="")+
+  labs(title="",x="",y="")
+  
+ggplot(f%>%
+  group_by(covid2)%>%
+  count(vote20jb),aes(covid2,n,fill=vote20jb))+
+  geom_col(position="dodge")+
+  theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Set2",name="")+
+  labs(title="",x="",y="")
+#The less worried, more likely to choose trump
+```
+
+Degree=1 indicates extremely worried.The trend is obvious,the more people getting worried, the more they will choose Biden instead Trump. And this is unavoidable because American lose th leader role at the beginning of the outbreak. When people see the number of increase and death getting bigger and bigger in the news everyday, they begin to worry about this pedamic more.  
 
 ##Conclusion
 
-1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump. On th other side, Trump eared some supports in the approval rating because of economic growth.
+
+1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump at that time. On th other side, Trump earned some supports in the approval rating because of economic growth.
 
 
-2.Compared with the potential danger of getting infected, people are more concerned about economic impact of the coronavirus. It is possible if the outbreak of COVID-19 can't get controlled, Trump's disapproval rate will be increasing at least in the economy and health care fields. 
+2.On the whole,there is high consistency in people's choice in the Economy, Covid and Job approval ratings.Compared with the potential danger of getting infected, people are more concerned about economic impact of the coronavirus. It is possible if the outbreak of COVID-19 couldn't get controlled, Trump's disapproval rate will be increasing at least in the economy and health care fields. 
 
 
-3. In terms of gender, age and education level, female groups are more likely to disapprove; the majority of people who is between 18-29 are more concerned about it, maybe the use of social media. 
-For the education difference, the sign is not that obvious. But people in the group with some degree or above tend to at least have more disapproval opinion compared with lower educational level. 
+3. The more people worried about COVID-19, the more likely Trump will lose. 
 
+My conclusion is that Trump may win without this pandemic considering the economic growth and his approval rating in the April 2020.  
