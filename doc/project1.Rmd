@@ -19,6 +19,7 @@ Coronavirus is one of the main reason he failed in the election. Is that true? T
 on the ANES 2020 Exploratory Testing Survey conducted between April 10, 2020 and April 18, 2020. For more information, please visit  https://electionstudies.org/data-center/2020-exploratory-testing-survey/
 
 
+  
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -305,6 +306,12 @@ ggplot(f%>%
 Degree=1 indicates extremely worried.The trend is obvious,the more people getting worried, the more they will choose Biden instead Trump. And this is unavoidable because American lose th leader role at the beginning of the outbreak. When people see the number of increase and death getting bigger and bigger in the news everyday, they begin to worry about this pedamic more.  
 
 ##Conclusion
+
+
+"Time For Change" model created by Professor Alan Abramowitz is a model to predict popular vote in the presidential elections with:
+  1. Presidential approval ratings
+  2. Economic growth
+  3. How long the White House has been controlled by one party instead of the other
 
 
 1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump at that time. On th other side, Trump earned some supports in the approval rating because of economic growth.
