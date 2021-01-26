@@ -12,38 +12,37 @@ output: pdf_document
 ## R Markdown
 Back in February of 2020, the world situation is completely different. At that time, the unemployment rate in the United States was the lowest in decades, the stock market repeatedly hit record highs, and the situation of President Trump's re-election was very good. However, the COVID-19 pandemic changed this situation dramatically. Many people say that Trump's response to coronavirus is one of the main reason he failed in the election. Is that true?The count of everyone's ballot is called the popular vote. Under the model "Time For Change" model created by Professor Alan Abramowitz.Presidential elections can be predicted with Presidential approval ratings, economic growth and how long the White House has been controlled by one party instead of the other. The last factor can be ignored.Let's use the survey data to do an analysis whether coronavirus is a important indicator when people make their choice in the future "president". 
 
-```{r}
+```{r include=FALSE}
 library(tidyverse)
-
 anes_pilot_2020<-
   read_csv("../data/anes_pilot_2020ets_csv.csv")
-
-
-
 #clear all missing data, and rename the variable 
 #Make question form=1, if asked about covid; form=2, healthcare
 trump_data <- anes_pilot_2020%>%
       select(apppres7:healthcarepres7,covid_inf=covid1,covid_eco=covid2)%>%
       na_if(99)%>%
-      transmute(Job=apppres7,relation=frnpres7,immgration=immpres7,economy=econpres7,covid=covidpres7,healthcare=healthcarepres7)%>%
+      na_if(9)%>%
+      rename(Job=apppres7,relation=frnpres7,immgration=immpres7,economy=econpres7,covid=covidpres7,healthcare=healthcarepres7)%>%
   na_if(77)%>%
   mutate(Form=if_else(covid==88,2,1))%>%
   na_if(88)%>%
   mutate(Answer=coalesce(covid,healthcare))%>%
   select(-covid,-healthcare)%>%
   drop_na()
-#A quick check of of graph of this data
 number_row<-nrow(trump_data)
+```
+
+
+
+
+```{r echo=FALSE}
 graph_data<-trump_data%>%
-  select(-Form)%>%
+  select(-Form,-covid_inf,-covid_eco)%>%
   gather()%>%
   group_by(value)%>%
   count(key)%>%
   mutate(prop=n/number_row)%>%
   ungroup()
-summary(c)
-
-
 ggplot(graph_data,aes(key,prop,fill=factor(value)))+
   geom_col(position="fill",width=0.7)+
   theme_classic()+
@@ -52,25 +51,31 @@ ggplot(graph_data,aes(key,prop,fill=factor(value)))+
   coord_flip()+
   theme(axis.title.x=element_text(size=5,face = "bold"),legend.title = element_text(size = 5,face = "bold"), legend.text = element_text(size = 5))+
   labs(title="Trump's Job approval in seven levels",x="",y="")
+```
 
+```{r include=FALSE}
 g_data<-graph_data%>%
   filter(!value %in% 4)%>%
   mutate(attitude=if_else(value<4,"Approve","Disapprove"))%>%
   group_by(key,attitude)%>%
-  summarize(prop1=sum(n)/number_row)
+  summarise(prop1=sum(n)/number_row)
+```
+
+```{r echo=FALSE}
 ggplot(g_data,aes(key,prop1,fill=factor(attitude),label=signif(prop1*100,2)))+
-  geom_col(position="stack",width=0.7,height=1.5)+
+  geom_col(position="stack",width=0.7)+
   theme_minimal()+
   scale_x_discrete(name="",labels=c("Healthcare/COVID","Economy","Immigration","Job","Relation"))+
   scale_fill_brewer(name="",labels=c("Approve ","Disapprove"))+
   geom_text(size = 3, position = position_stack(vjust = 0.5)) +
   coord_flip()
-#why economics
-  
-summary(trump_data)
+#why economics disapprove rate lowest , back to April 2020, 
+
+```  
 # let's see whether the two form of questionnaires in terms of Trump's job approval rating in the health care or Covid-19 have basically same distribution. 
 # I don't know if the test of homegency using chi-sqare test here will be appropriate, but let's give a try 
 # first visualize the comparism 
+```{r echo=FALSE}
 data1<-trump_data%>%
   select(Form, Answer)%>%
   group_by(Form)%>%
@@ -79,15 +84,54 @@ data1<-trump_data%>%
 ggplot(data1,aes(Answer,prop,fill=factor(Form)))+
   geom_col(position="dodge")+
   theme_classic()+
-  labs(main="Comparing results of two form of questions", subtitle="Form=1,include covid, Form=2,include health care",x="Answer",y="probabilty", fill="Form")
+  labs(main="Comparing results of two form of questions", subtitle="Form=1,include covid, Form=2,include health care",x="Answer",y="Frequency", fill="Form")
 # a rough conclusion based on the graph, will be the differnce is not big, however, for answer=4, which is "either disapprove nor approve", the difference is quite big.Why? Does that possibly mean that people's concern about covid-19 is not only mean the huge burden to medical support but also the effect to economy: increase un employment rate?Or maybe don't worried about get infected but more worried about losing their job?
+```
 
+#
+```{r echo=FALSE,message=FALSE}
+b<-trump_data%>%
+  select(covid_inf,covid_eco)%>%
+  gather()
 
-#test of homegencty: follow the same multinomial distribution 
-a<-matrix(data1$n,nrow=2,byrow=T)
-chisq.test(a) #p-value is essentially zero, so no 
+ggplot(b,aes(value,fill=key))+
+  geom_bar(position="dodge")
+#among all survey population, people are more concerned with economy effects 
+# trump_data%>%
+#   select(economy,Answer,covid_inf,covid_eco)%>%
+#   filter(economy>4)%>%
+#   group_by(covid_eco)%>%
+#   count(covid_eco)%>%
+#   ungroup()%>%
+#   mutate(prop=n/sum(n))
+# 
+# trump_data%>%
+#   select(economy,Answer,covid_inf,covid_eco)%>%
+#   filter(economy>4)%>%
+#   group_by(covid_inf)%>%
+#   count(covid_inf)%>%
+#   ungroup()%>%
+#   mutate(prop=n/sum(n))
+# 
+# trump_data%>%
+#   select(economy,Answer,covid_inf,covid_eco)%>%
+#   filter(Answer>4)%>%
+#   group_by(covid_inf)%>%
+#   count(covid_inf)%>%
+#   ungroup()%>%
+#   mutate(prop=n/sum(n))
+# 
+# trump_data%>%
+#   select(economy,Answer,covid_inf,covid_eco)%>%
+#   filter(Answer>4)%>%
+#   group_by(covid_eco)%>%
+#   count(covid_eco)%>%
+#   ungroup()%>%
+#   mutate(prop=n/sum(n))
+  
+  
 
-#may be the same, poeple may more worried ecnomics effects than their personal infection interms outbreak of coronavirus? 
+#Q3:People who are worried abount coronavirus will support who among Trump and Biden?
 
 
 
@@ -112,58 +156,8 @@ Overall, large percentage of citizens do disapprove extremely strongly about wha
 
 Is there any possibilities that people's concern about coronavirus and healthcare system really influence their choice? 
 
-```{r}
-cl_data<- anes_pilot_2020%>%
-  select(hlthcare1:covid_elect,covid_inf<=covid1,covid_eco=covid2)%>%
-  filter(hlthcare1!=9,hlthcare2!=9,covid1!=9,covid2!=9, covid_elect!=9)%>%
-  rename(hlthcare_govern=hlthcare1, hlthcare_pay=hlthcare2, covid_person=covid1,covid_eco=covid2)%>%
-  group_by(covid_person, covid_eco)%>%
-  count(hlthcare_pay,hlthcare_govern,sort=T)%>%
-  ungroup()%>%
-  mutate(prop=n/sum(n)*100)
-
-cl_data%>%
-  top_n(1,n)
-#4.701% people favors a great deal about government pay their health insurance are extemely worrid about theit pay og medical insurance and the outbreak of coronavirave will effect the economy\\\\
-
-#Among people whose attitude is baisically favor that the government pay health care fees for them and worried about paying the medical insureance, how many of them worried about the outbreak of cornovirus?
-
-d1<-cl_data%>%
-  filter(hlthcare_govern %in% c(1,2,3), hlthcare_pay %in% c(2,3,4,5))%>%
-  group_by(covid_person)%>%
-  count(covid_person)%>%
-  ungroup()%>%
- transmute(Answer=covid_person, infection=n/sum(n))
-d2<-cl_data%>%
-  filter(hlthcare_govern %in% c(1,2,3), hlthcare_pay %in% c(2,3,4,5))%>%
-  group_by(covid_eco)%>%
-  count(covid_eco)%>%
-  ungroup()%>%
- transmute(Answer=covid_eco, economy=n/sum(n))%>%
- left_join(d1)
- 
-
-ggplot(d2)+
-  geom_col(aes(x=Answer, y=economy,fill=factor(Answer)))+
-  scale_fill_brewer(direction=-1,palette = 5)+
-  theme_classic()+
-  labs(title="",x="", y="")
-  
-
-ggplot(d2)+
-  geom_col(aes(x=Answer, y=infection,fill=factor(Answer)))+
-  scale_fill_brewer(palette="Blues",direction=-1)+
-  theme_classic()+
-  labs(title="", x="", y="")
-
-
-```
-Well, This finding is interesting, people are not that worried about themselves, but more worried about economy. 
+ not that worried about themselves, but more worried about economy. 
 
 Is people's understanding or the information media gives to them affect their option about the coronavirus?
-```{r}
-mis_data<- anes_pilot_2020%>%
-  select(mis_covid1:conf_covid2)%>%
-  
-```
+
 
