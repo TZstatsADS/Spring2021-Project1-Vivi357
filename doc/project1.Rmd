@@ -104,7 +104,7 @@ ggplot(graph_data,aes(key,prop,fill=factor(value)))+
 
 People who disapprove are mostly extremely disapprove.
 
-```{r echo=FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 ggplot(g_data,aes(key,prop1,fill=factor(attitude),label=signif(prop1*100,2)))+
   geom_col(position="stack",width=0.7)+
   theme_minimal()+
@@ -126,7 +126,7 @@ But look at the bar of Healthcare/COVID, the difference actually really small.
 
 ##Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase? How about the job approval rate?
 
-```{r echo=FASLE,warning=FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 g1<-trump_data%>%
   select(Job,Answer,economy)%>%
   filter(Job!=4,Answer!=4,economy!=4)%>%
@@ -147,10 +147,11 @@ ggplot(g1,aes(economy,Covid,fill=factor(Covid)))+
   scale_fill_brewer(type="qual",palette ="Assent",name="")+
   labs(title="The distribution of Trump's rating in economy and Covid",x="",y="")
 
-
 ```
 
-```{r echo=FALSE,message=FALSE}
+
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 b<-trump_data%>%
   select(covid_inf,covid_eco)%>%
   gather()
@@ -172,7 +173,7 @@ People are more concerned about the economy decline as an important effect of pa
 It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing. 
 
 ##Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19. Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
-```{r include= FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 g<-anes_pilot_2020%>%
   transmute(sex,age=2020-birthyr,educ, covid=covidpres7,healthcare=healthcarepres7)%>%
     mutate(Age=case_when(age<=29&age>=18~"18-29",
@@ -199,7 +200,7 @@ nu_row<-nrow(g)
 ```
 
 
-```{r echo=FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 #sex: 1 male 2 female
 g_sex<-g%>%
   select(sex,attitude)%>%
@@ -220,7 +221,7 @@ ggplot(g_sex,aes(factor(sex),prop,fill=attitude)) +
 ```
 
 
-```{r echo=FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 #age
 
 g_age<-g%>%
@@ -239,7 +240,7 @@ ggplot(g_age,aes(Age,prop,fill=factor(attitude))) +
 
 
 
-```{r echo=FALSE}
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 # education
 g_edu<-g%>%
   select(educ,attitude)%>%
@@ -271,7 +272,9 @@ ggplot(g_ed,aes(edu_degree,prop,fill=factor(attitude))) +
   labs(title="Education difference in Trump's Job Approval handling COVID-19",x="",y="")
 # this is suprsing
 ```
-```{r echo=FASLE}
+
+
+```{r,warning=FALSE, message=FALSE,echo=FALSE}
 f<-anes_pilot_2020%>%
   select(vote20jb,covid1,covid2)%>%
   na_if(9)%>%
