@@ -4,9 +4,9 @@ title: "IF TIME GOES BACK WITH NO COVID-19,WILL TRUMP WIN?"
 author: "Weiwei Song"
 date: "1/22/2021"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 ![ ](../figs/pademic_covid.png)
 
@@ -43,7 +43,7 @@ number_row<-nrow(trump_data)
 
 
 
-## Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job?
+### Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job?
 
 This questionare have two Form in the Trump Job Approval category.
 
@@ -125,7 +125,7 @@ But look at the bar of Healthcare/COVID, the difference actually really small.
 
 
 
-##Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase? How about the job approval rate?
+### Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase? How about the job approval rate?
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 g1<-trump_data%>%
@@ -173,7 +173,10 @@ People are more concerned about the economy decline as an important effect of pa
 
 It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing. 
 
-##Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19. Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
+
+### Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19. Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
+
+
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 g<-anes_pilot_2020%>%
   transmute(sex,age=2020-birthyr,educ, covid=covidpres7,healthcare=healthcarepres7)%>%
@@ -305,7 +308,7 @@ ggplot(f%>%
 
 Degree=1 indicates extremely worried.The trend is obvious,the more people getting worried, the more they will choose Biden instead Trump. And this is unavoidable because American lose th leader role at the beginning of the outbreak. When people see the number of increase and death getting bigger and bigger in the news everyday, they begin to worry about this pedamic more.  
 
-##Conclusion
+## Conclusion
 
 
 "Time For Change" model created by Professor Alan Abramowitz is a model to predict popular vote in the presidential elections with:
