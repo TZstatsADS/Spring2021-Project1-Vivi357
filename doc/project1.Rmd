@@ -1,16 +1,24 @@
+
 ---
-output:
-  pdf_document: default
-  html_document: default
----
----
-title: "How the outbreak of COVID-19 influence popular vote?"
+title: IF TRUMP COPED WITH COVID-19 SUCCESSFULLY, WOULD HE WIN THE ELECTION?(job approve
+  rating)
 author: "Weiwei Song"
 date: "1/22/2021"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+---
+![ ](../figs/pademic_covid.png)
 
-## R Markdown
-Back in February of 2020, the world situation is completely different. At that time, the unemployment rate in the United States was the lowest in decades, the stock market repeatedly hit record highs, and the situation of President Trump's re-election was very good. However, the COVID-19 pandemic changed this situation dramatically. Many people say that Trump's response to coronavirus is one of the main reason he failed in the election. Is that true?The count of everyone's ballot is called the popular vote. Under the model "Time For Change" model created by Professor Alan Abramowitz.Presidential elections can be predicted with Presidential approval ratings, economic growth and how long the White House has been controlled by one party instead of the other. The last factor can be ignored.Let's use the survey data to do an analysis whether coronavirus is a important indicator when people make their choice in the future "president". 
+
+Back in February of 2020, the world situation is completely different. At that time, the
+unemployment rate in the United States was the lowest in decades, the stock market repeatedly hit
+record highs, and the situation of President Trump's re-election was very good. However, the
+COVID-19 pandemic changed this situation dramatically. Many people say that Trump's response to
+Coronavirus is one of the main reason he failed in the election. Is that true? This report is based
+on the ANES 2020 Exploratory Testing Survey conducted between April 10, 2020 and April 18, 2020. For more information, please visit  https://electionstudies.org/data-center/2020-exploratory-testing-survey/
+
+
 
 ```{r include=FALSE}
 library(tidyverse)
@@ -34,6 +42,16 @@ number_row<-nrow(trump_data)
 
 
 
+## Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job?
+
+The questionare have two Form in the Trump Job Approval category.
+
+
+![ ](../figs/q1.png)
+Should health care and coronavirus(COVID-19) be merged as one variable? Let's see the distribution of people's answers iterms of this question. 
+
+
+
 
 ```{r echo=FALSE}
 graph_data<-trump_data%>%
@@ -43,6 +61,33 @@ graph_data<-trump_data%>%
   count(key)%>%
   mutate(prop=n/number_row)%>%
   ungroup()
+```
+
+
+```{r echo=FALSE}
+data1<-trump_data%>%
+  select(Form, Answer)%>%
+  group_by(Form)%>%
+  count(Answer)%>%
+  mutate(total=sum(n),prop=n/total)
+ggplot(data1,aes(Answer,prop,fill=factor(Form)))+
+  geom_col(position="dodge")+
+  theme_classic()+
+  labs(title="Distribution of  answers of two form of questions", subtitle="Form=1:COVID-19  Form=2: health care",x="Answer",y="Probability", fill="Form")
+```
+
+From the plot, people are more likely to hold an approval attitude towards Trump's job handling COVID-19 than health care. Overall, difference is not big, except for the case that answer is "Neither approve or Disapprove". 
+
+```{r include=FALSE}
+g_data<-graph_data%>%
+  filter(!value %in% 4)%>%
+  mutate(attitude=if_else(value<4,"Approve","Disapprove"))%>%
+  group_by(key,attitude)%>%
+  summarise(prop1=sum(n)/number_row)
+```
+
+
+```{r echo=FALSE}
 ggplot(graph_data,aes(key,prop,fill=factor(value)))+
   geom_col(position="fill",width=0.7)+
   theme_classic()+
@@ -53,13 +98,8 @@ ggplot(graph_data,aes(key,prop,fill=factor(value)))+
   labs(title="Trump's Job approval in seven levels",x="",y="")
 ```
 
-```{r include=FALSE}
-g_data<-graph_data%>%
-  filter(!value %in% 4)%>%
-  mutate(attitude=if_else(value<4,"Approve","Disapprove"))%>%
-  group_by(key,attitude)%>%
-  summarise(prop1=sum(n)/number_row)
-```
+
+People who disapprove are mostly extremely disapprove.
 
 ```{r echo=FALSE}
 ggplot(g_data,aes(key,prop1,fill=factor(attitude),label=signif(prop1*100,2)))+
@@ -68,96 +108,141 @@ ggplot(g_data,aes(key,prop1,fill=factor(attitude),label=signif(prop1*100,2)))+
   scale_x_discrete(name="",labels=c("Healthcare/COVID","Economy","Immigration","Job","Relation"))+
   scale_fill_brewer(name="",labels=c("Approve ","Disapprove"))+
   geom_text(size = 3, position = position_stack(vjust = 0.5)) +
-  coord_flip()
-#why economics disapprove rate lowest , back to April 2020, 
+  coord_flip()+
+  labs(x="",y="", title="Trump Job Approval in two levels")
+
 
 ```  
-# let's see whether the two form of questionnaires in terms of Trump's job approval rating in the health care or Covid-19 have basically same distribution. 
-# I don't know if the test of homegency using chi-sqare test here will be appropriate, but let's give a try 
-# first visualize the comparism 
-```{r echo=FALSE}
-data1<-trump_data%>%
-  select(Form, Answer)%>%
-  group_by(Form)%>%
-  count(Answer)%>%
-  mutate(total=sum(n),prop=n/total)
-ggplot(data1,aes(Answer,prop,fill=factor(Form)))+
-  geom_col(position="dodge")+
-  theme_classic()+
-  labs(main="Comparing results of two form of questions", subtitle="Form=1,include covid, Form=2,include health care",x="Answer",y="Frequency", fill="Form")
-# a rough conclusion based on the graph, will be the differnce is not big, however, for answer=4, which is "either disapprove nor approve", the difference is quite big.Why? Does that possibly mean that people's concern about covid-19 is not only mean the huge burden to medical support but also the effect to economy: increase un employment rate?Or maybe don't worried about get infected but more worried about losing their job?
-```
+#The approval rate of Trump's Job in the field of economy is really high. 
+#But look at the bar of Healthcare/COVID, the difference actually really small. 
 
-#
+
+##Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase?
+
 ```{r echo=FALSE,message=FALSE}
 b<-trump_data%>%
   select(covid_inf,covid_eco)%>%
   gather()
 
-ggplot(b,aes(value,fill=key))+
-  geom_bar(position="dodge")
-#among all survey population, people are more concerned with economy effects 
-# trump_data%>%
-#   select(economy,Answer,covid_inf,covid_eco)%>%
-#   filter(economy>4)%>%
-#   group_by(covid_eco)%>%
-#   count(covid_eco)%>%
-#   ungroup()%>%
-#   mutate(prop=n/sum(n))
-# 
-# trump_data%>%
-#   select(economy,Answer,covid_inf,covid_eco)%>%
-#   filter(economy>4)%>%
-#   group_by(covid_inf)%>%
-#   count(covid_inf)%>%
-#   ungroup()%>%
-#   mutate(prop=n/sum(n))
-# 
-# trump_data%>%
-#   select(economy,Answer,covid_inf,covid_eco)%>%
-#   filter(Answer>4)%>%
-#   group_by(covid_inf)%>%
-#   count(covid_inf)%>%
-#   ungroup()%>%
-#   mutate(prop=n/sum(n))
-# 
-# trump_data%>%
-#   select(economy,Answer,covid_inf,covid_eco)%>%
-#   filter(Answer>4)%>%
-#   group_by(covid_eco)%>%
-#   count(covid_eco)%>%
-#   ungroup()%>%
-#   mutate(prop=n/sum(n))
-  
-  
+ggplot(b,aes(value,fill=(key)))+
+  geom_bar(position="dodge")+
+  theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Set1",name="",labels=c("economy","infection"))+
+  labs(title="Are people more worried about infection or economic lose of COVID-19?",x="Levels",y="Frequency")
 
-#Q3:People who are worried abount coronavirus will support who among Trump and Biden?
-
-
-
-
-
-
-
-
-  
 ```
-There are two differnt wording in terms of healthcare or Covid-19, let's check if the two different working influence people'answer related to this question.
-FORM = 1: 
-Do you approve, disapprove, or neither approve nor disapprove of the way Donald Trump is handing the coronavirus(COVID-19)outbreak?
-FORM = 2: 
-Do you approve, disapprove, or neither approve nor disapprove of the way Donald Trump is handling health care?
 
-we need to test the hypothesis whether for a random people in the survey group, whether the two question actually ask the same topic for them. In another word, the variable covid and healthcare follow the same distribution 
+#People are more concerned about the economy decline as an important effect of pandemic.
+#It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing at least in the economy and healthcare fields. 
+
+##Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19.
+```{r include= FALSE}
+g<-anes_pilot_2020%>%
+  transmute(sex,age=2020-birthyr,educ, covid=covidpres7,healthcare=healthcarepres7)%>%
+    mutate(Age=case_when(age<=29&age>=18~"18-29",
+                       age>=30&age<=49 ~"30-49",
+                       age>=50&age<=64 ~"50-64",
+                       age>=65~"65+"),
+           edu_degree=case_when(educ<=2~"HC or Less",
+                                educ>2&educ<=4~"Some Degree",
+                                educ==5~"College Grad",
+                                educ>5~"Postgrad"))%>%
+  select(-age)%>%
+  na_if(9)%>%
+  na_if(99)%>%
+    na_if(77)%>%
+  mutate(Form=if_else(covid==88,2,1))%>%
+  na_if(88)%>%
+  mutate(Covid=coalesce(covid,healthcare),
+         attitude=case_when(Covid<=3~"approve",
+                            Covid==4~"neither",
+                            Covid>=5~"disapprove"))%>%
+  select(-covid,-healthcare)%>%
+  drop_na()
+summary(g)
+nu_row<-nrow(g)
+```
 
 
-The p value is essentially zero, which doesn't give us enough evidence that the two wording techniques doesn't influence people's answer. People who answered question form 1 have less people hold neutral attitude.This makes sense because for majority of people, Trump's job performance regarding to coronavirus's outbreak in USA may not equal to what he did with heath care system. People may complains about the Trump's error in dealing with COVID-19 but they may find that his policy about health care system is acceptable. 
-Overall, large percentage of citizens do disapprove extremely strongly about what Trump did to health care and COVID-19. 
+```{r echo=FALSE}
+#sex: 1 male 2 female
+g_sex<-g%>%
+  select(sex,attitude)%>%
+  group_by(sex)%>%
+  count(attitude)%>%
+  mutate(prop=n/sum(n))%>%
+  ungroup%>%
+  filter(!attitude %in% "neither")
 
-Is there any possibilities that people's concern about coronavirus and healthcare system really influence their choice? 
+ggplot(g_sex,aes(factor(sex),prop,fill=attitude)) +
+  geom_col(position="dodge")+
+  theme_classic()+
+  scale_x_discrete(labels=c("1"="Male","2"="Female"))+
+  scale_fill_brewer(type="qual",palette ="Set2",name="",labels=c("approve","disapprove"))+
+  labs(title="Sex difference in Trump's Job Approval handling COVID-19",x="",y="")
+  
 
- not that worried about themselves, but more worried about economy. 
+```
 
-Is people's understanding or the information media gives to them affect their option about the coronavirus?
 
+```{r echo=FALSE}
+#age
+
+g_age<-g%>%
+  select(Age,attitude)%>%
+  group_by(Age)%>%
+  count(attitude)%>%
+  mutate(prop=n/sum(n))%>%
+  ungroup%>%
+  filter(!attitude %in% "neither")
+ggplot(g_age,aes(Age,prop,fill=factor(attitude))) +
+  geom_col(position="dodge")+
+  theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Accent",name="")+
+  labs(title="Age difference in Trump's Job Approval handling COVID-19",x="",y="")
+```
+
+```{r echo=FALSE}
+# education
+g_edu<-g%>%
+  select(educ,attitude)%>%
+  group_by(educ)%>%
+  count(attitude)%>%
+  mutate(prop=n/sum(n))%>%
+  ungroup%>%
+  filter(!attitude %in% "neither")
+
+ggplot(g_edu,aes(factor(educ),prop,fill=factor(attitude),label=signif(prop*100,2))) +
+  geom_col(position="stack",width=0.6)+
+  theme_minimal()+
+    scale_x_discrete(name="",labels=c("High school lower","High school","Some college","Associate Degree","Bacheler degree","Master degree","Professional degree","Doctorate"))+
+  scale_fill_brewer(type="qual",palette ="Dark2",name="")+
+   geom_text(size = 3, position = position_stack(vjust = 0.5)) +
+  coord_flip()+
+  labs(title="Education difference in Trump's Job Approval handling COVID-19",x="",y="")
+g_ed<-g%>%
+  select(edu_degree,attitude)%>%
+  group_by(edu_degree)%>%
+  count(attitude)%>%
+  mutate(prop=n/sum(n))%>%
+  ungroup%>%
+  filter(!attitude %in% "neither")
+ggplot(g_ed,aes(edu_degree,prop,fill=factor(attitude))) +
+  geom_col(position="dodge")+
+  theme_minimal()+
+  scale_fill_brewer(type="qual",palette ="Paired",name="")+
+  labs(title="Education difference in Trump's Job Approval handling COVID-19",x="",y="")
+# this is suprsing
+```
+
+##Conclusion
+
+1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump. On th other side, Trump eared some supports in the approval rating because of economic growth.
+
+
+2.Compared with the potential danger of getting infected, people are more concerned about economic impact of the coronavirus. It is possible if the outbreak of COVID-19 can't get controlled, Trump's disapproval rate will be increasing at least in the economy and health care fields. 
+
+
+3. In terms of gender, age and education level, female groups are more likely to disapprove; the majority of people who is between 18-29 are more concerned about it, maybe the use of social media. 
+For the education difference, the sign is not that obvious. But people in the group with some degree or above tend to at least have more disapproval opinion compared with lower educational level. 
 
