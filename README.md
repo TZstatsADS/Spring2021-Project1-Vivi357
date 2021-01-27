@@ -18,7 +18,7 @@ Term: Spring 2021
 +This analysis is based on three questions:
  1. Does the COVID-19 really have a huge impact in April 2020?
  2. What people more care about COVID-19? Economy or Infection?
- 3. Among people who are concerned with COVID-19? Who they will vote? 
+ 3. Among people who are concerned with COVID-19, Who they will vote? 
  
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
