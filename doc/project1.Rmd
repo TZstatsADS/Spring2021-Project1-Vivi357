@@ -4,10 +4,10 @@ title: "IF TIME GOES BACK WITH NO COVID-19,WILL TRUMP WIN?"
 author: "Weiwei Song"
 date: "1/22/2021"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
   word_document: default
+  pdf_document: default
 ---
 ![ ](../figs/pademic_covid.png)
 
@@ -41,15 +41,16 @@ trump_data <- anes_pilot_2020%>%
   select(-covid,-healthcare)%>%
   drop_na()
 number_row<-nrow(trump_data)
+
 ```
 
 
 
-### Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job? Is his job in the past four years really disappoint people?
+### Question 1: 
 
 This questionare have two Form in the Trump Job Approval category.
 
-
+## Question 1: Does the COVID-19 really have a huge impact in the election in April 2020?
 ![ ](../figs/q1.png)
 
 Should health care and coronavirus(COVID-19) be merged as one variable? Let's see the distribution of people's answers iterms of this question. 
@@ -127,7 +128,7 @@ But look at the bar of Healthcare/COVID, the difference actually really small.
 
 
 
-### Question 2: If the economy quickly declines as one of the common effects of the pendamic, will the disapproval ratio in the COVID/HEALTHCARE increase? How about the job approval rate?
+### Question 2: What people more care about COVID-19? Economy or Infection? What kind of people disapprove Trump's response?
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 g1<-trump_data%>%
@@ -175,7 +176,6 @@ People are more concerned about the economy decline as an important effect of pa
 It is possible if the outbreak of COVID-19 can't get controlled, TRUMP's disapproval rate will be increasing. 
 
 
-### Question 3: Gender, Age,Education difference in Trump's Job Approval handling COVID-19. Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
 
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
@@ -281,6 +281,8 @@ ggplot(g_ed,aes(edu_degree,prop,fill=factor(attitude))) +
 ```
 
 The differences is not so clear in the education level.
+
+### Question 3: Who is the ideal candidate(Trump or Biden) in April 2020 for those people concern about the coronavirus?
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 f<-anes_pilot_2020%>%
