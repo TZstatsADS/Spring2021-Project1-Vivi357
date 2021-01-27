@@ -7,6 +7,7 @@ output:
   pdf_document: default
   html_document:
     df_print: paged
+  word_document: default
 ---
 ![ ](../figs/pademic_covid.png)
 
@@ -18,10 +19,11 @@ COVID-19 pandemic changed this situation dramatically. Many people say that Trum
 Coronavirus is one of the main reason he failed in the election. Is that true? This report is based
 on the ANES 2020 Exploratory Testing Survey conducted between April 10, 2020 and April 18, 2020. For more information, please visit  https://electionstudies.org/data-center/2020-exploratory-testing-survey/
 
-
-  
+My analysis is based on the real situation in the April 2020, assume if the presidental election hold at that time, will Trump be the winner? 
 
 ```{r include=FALSE}
+
+
 library(tidyverse)
 anes_pilot_2020<-
   read_csv("../data/anes_pilot_2020ets_csv.csv")
@@ -43,7 +45,7 @@ number_row<-nrow(trump_data)
 
 
 
-### Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job?
+### Question 1: Is Trump'policy cope with Covid-19 is an important reason why people disapprove his job? Is his job in the past four years really disappoint people?
 
 This questionare have two Form in the Trump Job Approval category.
 
@@ -151,7 +153,6 @@ ggplot(g1,aes(economy,Covid,fill=factor(Covid)))+
 ```
 
 
-
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 b<-trump_data%>%
   select(covid_inf,covid_eco)%>%
@@ -224,6 +225,7 @@ ggplot(g_sex,aes(factor(sex),prop,fill=attitude)) +
 
 ```
 
+Clearly, women generally disapprove with trump's response. 
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 #age
@@ -242,6 +244,7 @@ ggplot(g_age,aes(Age,prop,fill=factor(attitude))) +
   labs(title="Age difference in Trump's Job Approval handling COVID-19",x="",y="")
 ```
 
+Young generation seems to disapprove it more, maybe the use of social media. 
 
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
@@ -277,6 +280,7 @@ ggplot(g_ed,aes(edu_degree,prop,fill=factor(attitude))) +
 # this is suprsing
 ```
 
+The differences is not so clear in the education level.
 
 ```{r,warning=FALSE, message=FALSE,echo=FALSE}
 f<-anes_pilot_2020%>%
@@ -294,7 +298,7 @@ ggplot(f%>%
   geom_col(position="dodge")+
   theme_minimal()+
   scale_fill_brewer(type="qual",palette ="Set1",name="")+
-  labs(title="",x="",y="")
+  labs(title="People(cares about infection) choose who?",x="",y="")
   
 ggplot(f%>%
   group_by(covid2)%>%
@@ -302,7 +306,7 @@ ggplot(f%>%
   geom_col(position="dodge")+
   theme_minimal()+
   scale_fill_brewer(type="qual",palette ="Set2",name="")+
-  labs(title="",x="",y="")
+  labs(title="People(cares about economy impact about Covid) choose who?",x="",y="")
 #The less worried, more likely to choose trump
 ```
 
@@ -311,12 +315,12 @@ Degree=1 indicates extremely worried.The trend is obvious,the more people gettin
 ## Conclusion
 
 
-1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump at that time. On th other side, Trump earned some supports in the approval rating because of economic growth.
+ 1. In April 2020, Trump's job approval actually is not as bad now. The outbreak of COVID-19 hasn't make people to be very disappointed with Trump at that time. On th other side, Trump earned some supports in the approval rating because of economic growth.
 
 
-2.On the whole,there is high consistency in people's choice in the Economy, Covid and Job approval ratings.Compared with the potential danger of getting infected, people are more concerned about economic impact of the coronavirus. It is possible if the outbreak of COVID-19 couldn't get controlled, Trump's disapproval rate will be increasing at least in the economy and health care fields. 
+ 2.On the whole,there is high consistency in people's choice in the Economy, Covid and Job approval ratings.Compared with the potential danger of getting infected, people are more concerned about economic impact of the coronavirus. It is possible if the outbreak of COVID-19 couldn't get controlled, Trump's disapproval rate will be increasing at least in the economy and health care fields. 
 
 
-3. The more people worried about COVID-19, the more likely Trump will lose. 
+ 3. The more people worried about COVID-19, the more likely Trump will lose. 
 
  
