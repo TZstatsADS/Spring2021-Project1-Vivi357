@@ -1,0 +1,3079 @@
+sex,educ,Age,edu_degree,Form,Covid,attitude
+2,4,18-29,Some Degree,1,1,approve
+2,4,50-64,Some Degree,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,2,65+,HC or Less,1,2,approve
+1,3,50-64,Some Degree,1,6,disapprove
+1,5,18-29,College Grad,1,5,disapprove
+1,2,18-29,HC or Less,1,3,approve
+1,3,30-49,Some Degree,1,5,disapprove
+2,5,65+,College Grad,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,2,65+,HC or Less,1,6,disapprove
+2,2,65+,HC or Less,1,1,approve
+2,4,50-64,Some Degree,1,4,neither
+1,3,50-64,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,3,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,3,approve
+2,6,65+,Postgrad,1,5,disapprove
+1,5,50-64,College Grad,1,5,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+1,4,65+,Some Degree,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+2,3,30-49,Some Degree,1,5,disapprove
+2,3,30-49,Some Degree,1,4,neither
+1,2,65+,HC or Less,1,2,approve
+1,3,30-49,Some Degree,1,7,disapprove
+1,7,30-49,Postgrad,1,2,approve
+1,5,30-49,College Grad,1,1,approve
+1,6,30-49,Postgrad,1,3,approve
+1,2,50-64,HC or Less,1,1,approve
+2,3,50-64,Some Degree,1,7,disapprove
+2,4,65+,Some Degree,1,2,approve
+1,2,30-49,HC or Less,1,6,disapprove
+2,4,65+,Some Degree,1,5,disapprove
+2,4,65+,Some Degree,1,5,disapprove
+1,5,18-29,College Grad,1,4,neither
+1,2,50-64,HC or Less,1,2,approve
+2,1,30-49,HC or Less,1,1,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,2,30-49,HC or Less,1,1,approve
+2,4,65+,Some Degree,1,1,approve
+1,6,65+,Postgrad,1,4,neither
+2,4,65+,Some Degree,1,6,disapprove
+1,3,50-64,Some Degree,1,3,approve
+1,6,30-49,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,1,approve
+2,5,65+,College Grad,1,7,disapprove
+1,3,50-64,Some Degree,1,4,neither
+1,3,18-29,Some Degree,1,5,disapprove
+1,2,30-49,HC or Less,1,1,approve
+2,8,65+,Postgrad,1,6,disapprove
+2,2,65+,HC or Less,1,3,approve
+2,4,18-29,Some Degree,1,4,neither
+2,2,65+,HC or Less,1,1,approve
+2,3,30-49,Some Degree,1,7,disapprove
+1,5,18-29,College Grad,1,4,neither
+2,1,65+,HC or Less,1,1,approve
+2,2,65+,HC or Less,1,2,approve
+1,2,50-64,HC or Less,1,2,approve
+2,4,30-49,Some Degree,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+2,1,50-64,HC or Less,1,4,neither
+1,6,30-49,Postgrad,1,1,approve
+1,2,30-49,HC or Less,1,7,disapprove
+2,8,50-64,Postgrad,1,7,disapprove
+1,1,30-49,HC or Less,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+1,2,65+,HC or Less,1,2,approve
+1,4,18-29,Some Degree,1,6,disapprove
+1,6,30-49,Postgrad,1,2,approve
+2,2,30-49,HC or Less,1,7,disapprove
+2,2,18-29,HC or Less,1,4,neither
+2,2,18-29,HC or Less,1,4,neither
+2,2,65+,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,4,neither
+1,3,30-49,Some Degree,1,1,approve
+2,5,30-49,College Grad,1,1,approve
+1,2,18-29,HC or Less,1,3,approve
+2,2,65+,HC or Less,1,2,approve
+1,6,65+,Postgrad,1,3,approve
+2,3,18-29,Some Degree,1,7,disapprove
+1,3,50-64,Some Degree,1,2,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,4,50-64,Some Degree,1,7,disapprove
+1,3,18-29,Some Degree,1,6,disapprove
+1,3,65+,Some Degree,1,6,disapprove
+2,8,30-49,Postgrad,1,7,disapprove
+2,2,30-49,HC or Less,1,4,neither
+2,5,65+,College Grad,1,1,approve
+1,8,30-49,Postgrad,1,6,disapprove
+2,6,65+,Postgrad,1,1,approve
+2,2,30-49,HC or Less,1,7,disapprove
+1,1,18-29,HC or Less,1,7,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+2,6,18-29,Postgrad,1,3,approve
+1,5,50-64,College Grad,1,5,disapprove
+2,3,65+,Some Degree,1,3,approve
+1,6,30-49,Postgrad,1,6,disapprove
+1,6,30-49,Postgrad,1,1,approve
+1,4,30-49,Some Degree,1,2,approve
+1,2,18-29,HC or Less,1,5,disapprove
+2,6,65+,Postgrad,1,6,disapprove
+2,4,18-29,Some Degree,1,2,approve
+2,4,50-64,Some Degree,1,6,disapprove
+2,4,50-64,Some Degree,1,6,disapprove
+2,5,50-64,College Grad,1,6,disapprove
+1,2,18-29,HC or Less,1,4,neither
+2,6,30-49,Postgrad,1,7,disapprove
+1,5,50-64,College Grad,1,1,approve
+2,5,18-29,College Grad,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+1,5,50-64,College Grad,1,2,approve
+1,1,18-29,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,6,disapprove
+2,3,18-29,Some Degree,1,5,disapprove
+2,6,65+,Postgrad,1,5,disapprove
+2,5,30-49,College Grad,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,2,approve
+2,2,18-29,HC or Less,1,7,disapprove
+2,1,18-29,HC or Less,1,6,disapprove
+2,5,65+,College Grad,1,5,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,8,50-64,Postgrad,1,1,approve
+2,2,18-29,HC or Less,1,6,disapprove
+1,2,30-49,HC or Less,1,2,approve
+2,5,65+,College Grad,1,2,approve
+1,6,65+,Postgrad,1,2,approve
+2,3,65+,Some Degree,1,5,disapprove
+1,3,65+,Some Degree,1,2,approve
+1,2,18-29,HC or Less,1,2,approve
+2,2,30-49,HC or Less,1,4,neither
+1,2,65+,HC or Less,1,7,disapprove
+2,6,50-64,Postgrad,1,2,approve
+1,3,65+,Some Degree,1,2,approve
+1,6,50-64,Postgrad,1,7,disapprove
+1,5,30-49,College Grad,1,5,disapprove
+2,5,50-64,College Grad,1,2,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,2,65+,HC or Less,1,1,approve
+1,5,30-49,College Grad,1,1,approve
+2,2,30-49,HC or Less,1,5,disapprove
+1,5,50-64,College Grad,1,1,approve
+2,5,30-49,College Grad,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,3,30-49,Some Degree,1,2,approve
+2,4,65+,Some Degree,1,2,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+2,5,50-64,College Grad,1,3,approve
+1,2,65+,HC or Less,1,2,approve
+1,3,30-49,Some Degree,1,1,approve
+2,6,30-49,Postgrad,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+1,1,65+,HC or Less,1,2,approve
+2,5,30-49,College Grad,1,3,approve
+2,2,50-64,HC or Less,1,2,approve
+2,5,18-29,College Grad,1,7,disapprove
+1,2,30-49,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,7,disapprove
+1,8,65+,Postgrad,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,1,approve
+2,6,30-49,Postgrad,1,3,approve
+2,1,30-49,HC or Less,1,1,approve
+1,3,18-29,Some Degree,1,4,neither
+1,3,30-49,Some Degree,1,2,approve
+1,2,65+,HC or Less,1,2,approve
+2,5,50-64,College Grad,1,3,approve
+1,3,18-29,Some Degree,1,2,approve
+1,5,65+,College Grad,1,6,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,2,approve
+2,3,50-64,Some Degree,1,1,approve
+2,4,18-29,Some Degree,1,3,approve
+1,2,30-49,HC or Less,1,7,disapprove
+2,5,30-49,College Grad,1,2,approve
+2,4,30-49,Some Degree,1,2,approve
+1,6,65+,Postgrad,1,2,approve
+1,6,30-49,Postgrad,1,2,approve
+2,3,50-64,Some Degree,1,2,approve
+1,5,50-64,College Grad,1,5,disapprove
+1,2,65+,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,2,approve
+1,5,30-49,College Grad,1,1,approve
+1,5,30-49,College Grad,1,6,disapprove
+1,4,30-49,Some Degree,1,6,disapprove
+1,2,50-64,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,7,disapprove
+1,8,30-49,Postgrad,1,2,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,5,18-29,College Grad,1,7,disapprove
+2,5,65+,College Grad,1,7,disapprove
+1,5,18-29,College Grad,1,7,disapprove
+2,5,18-29,College Grad,1,3,approve
+1,5,50-64,College Grad,1,7,disapprove
+1,3,30-49,Some Degree,1,5,disapprove
+1,5,50-64,College Grad,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,3,50-64,Some Degree,1,1,approve
+1,2,18-29,HC or Less,1,2,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,6,30-49,Postgrad,1,1,approve
+2,2,65+,HC or Less,1,3,approve
+2,8,18-29,Postgrad,1,7,disapprove
+1,5,50-64,College Grad,1,4,neither
+2,3,65+,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,5,30-49,College Grad,1,1,approve
+2,3,50-64,Some Degree,1,7,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,3,approve
+1,3,30-49,Some Degree,1,4,neither
+1,3,65+,Some Degree,1,6,disapprove
+2,2,65+,HC or Less,1,1,approve
+2,5,65+,College Grad,1,5,disapprove
+2,3,50-64,Some Degree,1,1,approve
+1,8,30-49,Postgrad,1,3,approve
+1,4,65+,Some Degree,1,2,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,1,65+,HC or Less,1,2,approve
+2,5,18-29,College Grad,1,6,disapprove
+2,5,18-29,College Grad,1,4,neither
+2,2,65+,HC or Less,1,1,approve
+2,6,65+,Postgrad,1,1,approve
+1,3,50-64,Some Degree,1,7,disapprove
+1,2,50-64,HC or Less,1,7,disapprove
+2,8,30-49,Postgrad,1,1,approve
+1,4,50-64,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,7,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+1,1,18-29,HC or Less,1,2,approve
+1,3,50-64,Some Degree,1,6,disapprove
+1,6,30-49,Postgrad,1,2,approve
+2,6,30-49,Postgrad,1,7,disapprove
+2,1,18-29,HC or Less,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,7,disapprove
+1,7,30-49,Postgrad,1,1,approve
+2,4,30-49,Some Degree,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+2,6,30-49,Postgrad,1,3,approve
+2,2,65+,HC or Less,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,2,approve
+1,5,65+,College Grad,1,1,approve
+2,4,50-64,Some Degree,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+2,2,18-29,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,7,disapprove
+2,5,50-64,College Grad,1,6,disapprove
+2,1,30-49,HC or Less,1,6,disapprove
+1,5,65+,College Grad,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,4,50-64,Some Degree,1,2,approve
+1,3,18-29,Some Degree,1,2,approve
+1,1,18-29,HC or Less,1,5,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+1,1,65+,HC or Less,1,2,approve
+2,2,65+,HC or Less,1,2,approve
+2,4,65+,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,5,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+2,6,30-49,Postgrad,1,6,disapprove
+1,4,65+,Some Degree,1,1,approve
+2,2,18-29,HC or Less,1,1,approve
+2,3,18-29,Some Degree,1,7,disapprove
+2,7,30-49,Postgrad,1,1,approve
+2,5,65+,College Grad,1,3,approve
+1,4,30-49,Some Degree,1,7,disapprove
+2,1,30-49,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,2,approve
+2,1,30-49,HC or Less,1,2,approve
+2,5,65+,College Grad,1,7,disapprove
+1,2,18-29,HC or Less,1,4,neither
+2,6,30-49,Postgrad,1,3,approve
+1,6,65+,Postgrad,1,6,disapprove
+2,4,30-49,Some Degree,1,7,disapprove
+1,3,30-49,Some Degree,1,1,approve
+1,8,65+,Postgrad,1,7,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+2,5,30-49,College Grad,1,3,approve
+1,5,50-64,College Grad,1,1,approve
+1,3,18-29,Some Degree,1,3,approve
+1,2,50-64,HC or Less,1,6,disapprove
+2,4,50-64,Some Degree,1,7,disapprove
+2,7,30-49,Postgrad,1,2,approve
+2,4,50-64,Some Degree,1,7,disapprove
+2,5,18-29,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,4,65+,Some Degree,1,1,approve
+2,3,65+,Some Degree,1,2,approve
+2,6,30-49,Postgrad,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,2,30-49,HC or Less,1,4,neither
+1,2,18-29,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,3,65+,Some Degree,1,2,approve
+2,5,30-49,College Grad,1,3,approve
+2,4,18-29,Some Degree,1,5,disapprove
+2,6,65+,Postgrad,1,1,approve
+1,2,18-29,HC or Less,1,7,disapprove
+2,3,30-49,Some Degree,1,1,approve
+1,6,18-29,Postgrad,1,3,approve
+2,4,50-64,Some Degree,1,1,approve
+2,4,30-49,Some Degree,1,3,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,2,30-49,HC or Less,1,4,neither
+2,3,50-64,Some Degree,1,7,disapprove
+2,1,65+,HC or Less,1,4,neither
+1,2,30-49,HC or Less,1,4,neither
+2,5,65+,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,3,65+,Some Degree,1,2,approve
+1,8,30-49,Postgrad,1,1,approve
+2,3,18-29,Some Degree,1,6,disapprove
+2,5,65+,College Grad,1,1,approve
+1,4,30-49,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,1,approve
+1,8,30-49,Postgrad,1,5,disapprove
+2,3,18-29,Some Degree,1,3,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,3,65+,Some Degree,1,1,approve
+1,6,50-64,Postgrad,1,2,approve
+2,5,18-29,College Grad,1,2,approve
+2,7,50-64,Postgrad,1,2,approve
+2,5,50-64,College Grad,1,4,neither
+2,5,50-64,College Grad,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,8,65+,Postgrad,1,7,disapprove
+2,5,30-49,College Grad,1,3,approve
+1,5,30-49,College Grad,1,1,approve
+1,7,50-64,Postgrad,1,7,disapprove
+2,4,50-64,Some Degree,1,4,neither
+2,4,30-49,Some Degree,1,6,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,1,30-49,HC or Less,1,2,approve
+2,4,30-49,Some Degree,1,2,approve
+2,3,18-29,Some Degree,1,4,neither
+2,3,50-64,Some Degree,1,6,disapprove
+1,5,65+,College Grad,1,1,approve
+2,6,50-64,Postgrad,1,2,approve
+1,8,30-49,Postgrad,1,1,approve
+2,3,30-49,Some Degree,1,7,disapprove
+2,3,30-49,Some Degree,1,7,disapprove
+2,6,30-49,Postgrad,1,6,disapprove
+2,4,18-29,Some Degree,1,7,disapprove
+1,3,30-49,Some Degree,1,4,neither
+1,7,18-29,Postgrad,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+2,4,18-29,Some Degree,1,1,approve
+1,5,30-49,College Grad,1,2,approve
+2,5,65+,College Grad,1,1,approve
+1,6,50-64,Postgrad,1,7,disapprove
+2,7,30-49,Postgrad,1,2,approve
+2,5,65+,College Grad,1,7,disapprove
+1,6,50-64,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,7,30-49,Postgrad,1,4,neither
+1,6,30-49,Postgrad,1,4,neither
+2,6,50-64,Postgrad,1,7,disapprove
+1,3,30-49,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,3,approve
+1,5,50-64,College Grad,1,1,approve
+1,2,18-29,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,6,disapprove
+2,4,30-49,Some Degree,1,3,approve
+1,8,30-49,Postgrad,1,6,disapprove
+1,5,30-49,College Grad,1,1,approve
+2,6,65+,Postgrad,1,7,disapprove
+2,5,50-64,College Grad,1,4,neither
+2,6,30-49,Postgrad,1,7,disapprove
+1,2,65+,HC or Less,1,6,disapprove
+1,2,65+,HC or Less,1,1,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+1,2,50-64,HC or Less,1,6,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,5,18-29,College Grad,1,7,disapprove
+1,6,65+,Postgrad,1,7,disapprove
+1,5,50-64,College Grad,1,3,approve
+2,4,50-64,Some Degree,1,3,approve
+2,2,50-64,HC or Less,1,1,approve
+2,2,50-64,HC or Less,1,5,disapprove
+2,2,50-64,HC or Less,1,2,approve
+1,4,65+,Some Degree,1,2,approve
+2,4,65+,Some Degree,1,6,disapprove
+1,2,50-64,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,5,30-49,College Grad,1,4,neither
+2,2,18-29,HC or Less,1,5,disapprove
+1,3,50-64,Some Degree,1,6,disapprove
+2,2,50-64,HC or Less,1,6,disapprove
+2,2,65+,HC or Less,1,2,approve
+1,4,50-64,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,2,approve
+2,6,30-49,Postgrad,1,5,disapprove
+1,8,30-49,Postgrad,1,4,neither
+1,6,65+,Postgrad,1,6,disapprove
+2,2,18-29,HC or Less,1,2,approve
+1,2,50-64,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,4,50-64,Some Degree,1,3,approve
+2,1,50-64,HC or Less,1,4,neither
+2,3,65+,Some Degree,1,6,disapprove
+2,5,30-49,College Grad,1,1,approve
+1,3,65+,Some Degree,1,1,approve
+2,5,18-29,College Grad,1,4,neither
+2,2,30-49,HC or Less,1,7,disapprove
+1,5,50-64,College Grad,1,3,approve
+2,2,65+,HC or Less,1,1,approve
+2,2,50-64,HC or Less,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,3,30-49,Some Degree,1,1,approve
+2,3,50-64,Some Degree,1,1,approve
+2,4,65+,Some Degree,1,5,disapprove
+2,2,18-29,HC or Less,1,4,neither
+2,3,50-64,Some Degree,1,7,disapprove
+2,3,18-29,Some Degree,1,3,approve
+2,4,65+,Some Degree,1,2,approve
+2,2,18-29,HC or Less,1,7,disapprove
+2,1,50-64,HC or Less,1,4,neither
+1,5,30-49,College Grad,1,7,disapprove
+2,4,65+,Some Degree,1,2,approve
+2,5,18-29,College Grad,1,3,approve
+2,7,30-49,Postgrad,1,7,disapprove
+1,2,18-29,HC or Less,1,7,disapprove
+2,4,65+,Some Degree,1,6,disapprove
+2,2,50-64,HC or Less,1,4,neither
+2,2,50-64,HC or Less,1,7,disapprove
+2,7,65+,Postgrad,1,7,disapprove
+2,4,50-64,Some Degree,1,1,approve
+1,6,50-64,Postgrad,1,6,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,5,50-64,College Grad,1,3,approve
+1,5,50-64,College Grad,1,2,approve
+2,6,50-64,Postgrad,1,7,disapprove
+1,8,30-49,Postgrad,1,2,approve
+2,4,50-64,Some Degree,1,3,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,2,50-64,HC or Less,1,3,approve
+2,2,65+,HC or Less,1,1,approve
+1,5,65+,College Grad,1,7,disapprove
+2,6,30-49,Postgrad,1,5,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,2,50-64,HC or Less,1,4,neither
+1,4,65+,Some Degree,1,1,approve
+1,5,30-49,College Grad,1,2,approve
+2,5,65+,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,3,approve
+2,5,50-64,College Grad,1,7,disapprove
+1,3,50-64,Some Degree,1,1,approve
+2,2,65+,HC or Less,1,2,approve
+1,3,18-29,Some Degree,1,3,approve
+1,5,30-49,College Grad,1,1,approve
+1,8,30-49,Postgrad,1,7,disapprove
+1,1,18-29,HC or Less,1,3,approve
+2,4,50-64,Some Degree,1,1,approve
+2,3,30-49,Some Degree,1,7,disapprove
+2,4,18-29,Some Degree,1,6,disapprove
+1,6,30-49,Postgrad,1,3,approve
+1,5,18-29,College Grad,1,7,disapprove
+2,6,65+,Postgrad,1,7,disapprove
+2,5,65+,College Grad,1,7,disapprove
+1,4,30-49,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,50-64,Some Degree,1,4,neither
+2,4,18-29,Some Degree,1,3,approve
+1,4,30-49,Some Degree,1,5,disapprove
+1,6,30-49,Postgrad,1,2,approve
+1,6,30-49,Postgrad,1,7,disapprove
+1,6,30-49,Postgrad,1,3,approve
+1,6,50-64,Postgrad,1,5,disapprove
+2,1,30-49,HC or Less,1,3,approve
+1,3,18-29,Some Degree,1,2,approve
+2,2,50-64,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,4,neither
+1,2,30-49,HC or Less,1,4,neither
+2,6,65+,Postgrad,1,3,approve
+1,6,30-49,Postgrad,1,7,disapprove
+1,8,30-49,Postgrad,1,1,approve
+2,5,65+,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,7,disapprove
+2,5,50-64,College Grad,1,6,disapprove
+2,2,30-49,HC or Less,1,6,disapprove
+2,2,65+,HC or Less,1,1,approve
+1,4,50-64,Some Degree,1,2,approve
+2,3,18-29,Some Degree,1,7,disapprove
+2,1,65+,HC or Less,1,4,neither
+1,4,65+,Some Degree,1,1,approve
+2,5,65+,College Grad,1,1,approve
+2,4,65+,Some Degree,1,6,disapprove
+1,5,18-29,College Grad,1,3,approve
+2,2,18-29,HC or Less,1,7,disapprove
+2,4,30-49,Some Degree,1,7,disapprove
+2,3,18-29,Some Degree,1,6,disapprove
+2,3,50-64,Some Degree,1,3,approve
+1,2,50-64,HC or Less,1,7,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+2,2,65+,HC or Less,1,4,neither
+2,3,65+,Some Degree,1,7,disapprove
+2,3,50-64,Some Degree,1,3,approve
+2,3,65+,Some Degree,1,3,approve
+2,2,50-64,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,1,approve
+1,3,30-49,Some Degree,1,7,disapprove
+2,6,50-64,Postgrad,1,1,approve
+2,5,18-29,College Grad,1,6,disapprove
+1,6,30-49,Postgrad,1,7,disapprove
+2,7,30-49,Postgrad,1,4,neither
+1,4,18-29,Some Degree,1,3,approve
+2,4,30-49,Some Degree,1,6,disapprove
+1,3,30-49,Some Degree,1,1,approve
+2,6,65+,Postgrad,1,6,disapprove
+2,4,18-29,Some Degree,1,3,approve
+2,3,18-29,Some Degree,1,4,neither
+2,6,50-64,Postgrad,1,7,disapprove
+1,3,30-49,Some Degree,1,6,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+1,2,18-29,HC or Less,1,6,disapprove
+2,5,18-29,College Grad,1,7,disapprove
+1,3,18-29,Some Degree,1,5,disapprove
+2,6,65+,Postgrad,1,5,disapprove
+1,1,50-64,HC or Less,1,2,approve
+2,7,18-29,Postgrad,1,4,neither
+1,7,30-49,Postgrad,1,7,disapprove
+2,5,18-29,College Grad,1,7,disapprove
+2,4,65+,Some Degree,1,4,neither
+2,6,30-49,Postgrad,1,6,disapprove
+1,7,65+,Postgrad,1,7,disapprove
+1,4,18-29,Some Degree,1,2,approve
+1,3,50-64,Some Degree,1,7,disapprove
+1,5,18-29,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,6,65+,Postgrad,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+1,4,30-49,Some Degree,1,2,approve
+2,1,65+,HC or Less,1,7,disapprove
+2,3,50-64,Some Degree,1,6,disapprove
+2,2,50-64,HC or Less,1,1,approve
+2,3,30-49,Some Degree,1,3,approve
+1,2,65+,HC or Less,1,3,approve
+1,3,18-29,Some Degree,1,7,disapprove
+2,6,30-49,Postgrad,1,6,disapprove
+2,3,30-49,Some Degree,1,3,approve
+2,5,50-64,College Grad,1,7,disapprove
+1,5,50-64,College Grad,1,2,approve
+2,6,30-49,Postgrad,1,7,disapprove
+2,5,65+,College Grad,1,3,approve
+1,3,65+,Some Degree,1,7,disapprove
+1,2,50-64,HC or Less,1,2,approve
+1,7,50-64,Postgrad,1,6,disapprove
+2,5,30-49,College Grad,1,2,approve
+1,4,18-29,Some Degree,1,5,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+2,4,30-49,Some Degree,1,4,neither
+2,5,50-64,College Grad,1,1,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,2,30-49,HC or Less,1,4,neither
+1,3,30-49,Some Degree,1,2,approve
+2,4,30-49,Some Degree,1,1,approve
+2,5,18-29,College Grad,1,7,disapprove
+2,3,50-64,Some Degree,1,2,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,5,65+,College Grad,1,7,disapprove
+2,3,30-49,Some Degree,1,4,neither
+2,2,50-64,HC or Less,1,1,approve
+1,2,18-29,HC or Less,1,5,disapprove
+1,7,50-64,Postgrad,1,2,approve
+1,2,30-49,HC or Less,1,3,approve
+2,6,65+,Postgrad,1,1,approve
+1,3,30-49,Some Degree,1,2,approve
+1,5,65+,College Grad,1,6,disapprove
+1,3,30-49,Some Degree,1,1,approve
+2,3,50-64,Some Degree,1,7,disapprove
+2,6,65+,Postgrad,1,1,approve
+1,7,50-64,Postgrad,1,6,disapprove
+2,2,30-49,HC or Less,1,1,approve
+2,7,18-29,Postgrad,1,4,neither
+1,3,65+,Some Degree,1,1,approve
+2,6,18-29,Postgrad,1,7,disapprove
+1,2,30-49,HC or Less,1,3,approve
+2,2,30-49,HC or Less,1,2,approve
+2,5,18-29,College Grad,1,2,approve
+1,4,30-49,Some Degree,1,6,disapprove
+1,7,30-49,Postgrad,1,1,approve
+1,5,30-49,College Grad,1,6,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,2,30-49,HC or Less,1,7,disapprove
+2,3,50-64,Some Degree,1,2,approve
+2,1,18-29,HC or Less,1,2,approve
+2,4,30-49,Some Degree,1,2,approve
+1,5,30-49,College Grad,1,4,neither
+2,3,30-49,Some Degree,1,3,approve
+1,2,30-49,HC or Less,1,7,disapprove
+1,2,30-49,HC or Less,1,2,approve
+1,6,30-49,Postgrad,1,1,approve
+2,3,50-64,Some Degree,1,4,neither
+1,6,50-64,Postgrad,1,7,disapprove
+1,3,65+,Some Degree,1,1,approve
+1,6,30-49,Postgrad,1,5,disapprove
+1,4,30-49,Some Degree,1,3,approve
+2,5,30-49,College Grad,1,5,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+2,5,50-64,College Grad,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+2,2,50-64,HC or Less,1,2,approve
+1,6,18-29,Postgrad,1,6,disapprove
+1,3,50-64,Some Degree,1,2,approve
+2,5,50-64,College Grad,1,2,approve
+1,2,30-49,HC or Less,1,3,approve
+1,2,30-49,HC or Less,1,3,approve
+1,3,30-49,Some Degree,1,5,disapprove
+1,8,30-49,Postgrad,1,1,approve
+1,5,30-49,College Grad,1,2,approve
+1,2,50-64,HC or Less,1,1,approve
+2,3,50-64,Some Degree,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+2,8,30-49,Postgrad,1,6,disapprove
+2,6,30-49,Postgrad,1,4,neither
+1,5,30-49,College Grad,1,3,approve
+2,2,18-29,HC or Less,1,6,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+1,7,65+,Postgrad,1,6,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,2,50-64,HC or Less,1,1,approve
+2,3,50-64,Some Degree,1,6,disapprove
+2,2,50-64,HC or Less,1,4,neither
+1,6,30-49,Postgrad,1,2,approve
+2,2,65+,HC or Less,1,7,disapprove
+1,2,18-29,HC or Less,1,2,approve
+1,4,65+,Some Degree,1,7,disapprove
+1,2,18-29,HC or Less,1,4,neither
+2,6,65+,Postgrad,1,7,disapprove
+1,6,30-49,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,2,approve
+1,4,30-49,Some Degree,1,1,approve
+2,2,50-64,HC or Less,1,3,approve
+1,2,30-49,HC or Less,1,7,disapprove
+1,7,30-49,Postgrad,1,4,neither
+2,4,50-64,Some Degree,1,3,approve
+1,2,65+,HC or Less,1,3,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,5,30-49,College Grad,1,6,disapprove
+1,1,30-49,HC or Less,1,1,approve
+1,2,65+,HC or Less,1,1,approve
+2,2,65+,HC or Less,1,3,approve
+2,2,30-49,HC or Less,1,1,approve
+2,3,30-49,Some Degree,1,3,approve
+1,6,30-49,Postgrad,1,3,approve
+1,5,50-64,College Grad,1,5,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,6,50-64,Postgrad,1,6,disapprove
+2,2,65+,HC or Less,1,2,approve
+1,3,18-29,Some Degree,1,3,approve
+2,6,50-64,Postgrad,1,2,approve
+2,2,30-49,HC or Less,1,2,approve
+2,2,30-49,HC or Less,1,1,approve
+2,6,50-64,Postgrad,1,7,disapprove
+2,3,50-64,Some Degree,1,4,neither
+2,3,18-29,Some Degree,1,2,approve
+1,3,50-64,Some Degree,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+2,3,18-29,Some Degree,1,6,disapprove
+2,2,30-49,HC or Less,1,2,approve
+2,6,30-49,Postgrad,1,7,disapprove
+2,2,30-49,HC or Less,1,1,approve
+2,2,65+,HC or Less,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+2,2,50-64,HC or Less,1,5,disapprove
+2,3,50-64,Some Degree,1,2,approve
+2,3,30-49,Some Degree,1,1,approve
+2,8,30-49,Postgrad,1,3,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,3,approve
+1,6,30-49,Postgrad,1,3,approve
+1,4,50-64,Some Degree,1,2,approve
+2,3,65+,Some Degree,1,1,approve
+1,4,65+,Some Degree,1,1,approve
+1,5,30-49,College Grad,1,1,approve
+1,5,30-49,College Grad,1,2,approve
+1,2,65+,HC or Less,1,5,disapprove
+1,8,30-49,Postgrad,1,5,disapprove
+2,1,50-64,HC or Less,1,6,disapprove
+2,6,18-29,Postgrad,1,3,approve
+1,5,30-49,College Grad,1,2,approve
+2,2,65+,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,1,approve
+2,6,30-49,Postgrad,1,6,disapprove
+1,2,65+,HC or Less,1,3,approve
+2,4,30-49,Some Degree,1,6,disapprove
+2,5,50-64,College Grad,1,6,disapprove
+2,6,65+,Postgrad,1,6,disapprove
+2,2,50-64,HC or Less,1,2,approve
+1,8,65+,Postgrad,1,7,disapprove
+1,4,65+,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,1,18-29,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,3,65+,Some Degree,1,1,approve
+1,2,18-29,HC or Less,1,3,approve
+1,8,30-49,Postgrad,1,1,approve
+2,5,50-64,College Grad,1,1,approve
+1,3,30-49,Some Degree,1,4,neither
+2,1,50-64,HC or Less,1,3,approve
+2,5,50-64,College Grad,1,2,approve
+2,6,65+,Postgrad,1,1,approve
+1,8,30-49,Postgrad,1,7,disapprove
+1,8,50-64,Postgrad,1,2,approve
+1,2,65+,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,1,approve
+1,3,65+,Some Degree,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,2,30-49,HC or Less,1,2,approve
+2,3,50-64,Some Degree,1,4,neither
+2,4,30-49,Some Degree,1,2,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,2,30-49,HC or Less,1,7,disapprove
+1,2,50-64,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,2,approve
+2,6,65+,Postgrad,1,3,approve
+1,4,65+,Some Degree,1,1,approve
+2,5,30-49,College Grad,1,5,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+2,1,30-49,HC or Less,1,4,neither
+1,6,50-64,Postgrad,1,1,approve
+2,2,65+,HC or Less,1,1,approve
+1,7,50-64,Postgrad,1,7,disapprove
+1,4,30-49,Some Degree,1,2,approve
+1,5,65+,College Grad,1,4,neither
+1,3,50-64,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,1,approve
+2,8,30-49,Postgrad,1,1,approve
+1,3,30-49,Some Degree,1,2,approve
+2,5,50-64,College Grad,1,1,approve
+1,2,30-49,HC or Less,1,3,approve
+2,5,18-29,College Grad,1,4,neither
+2,2,65+,HC or Less,1,6,disapprove
+2,4,18-29,Some Degree,1,5,disapprove
+2,3,50-64,Some Degree,1,5,disapprove
+2,3,50-64,Some Degree,1,4,neither
+1,6,65+,Postgrad,1,1,approve
+1,2,30-49,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,5,disapprove
+2,2,50-64,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,7,disapprove
+1,7,18-29,Postgrad,1,6,disapprove
+2,4,50-64,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,1,approve
+2,2,30-49,HC or Less,1,7,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+2,7,50-64,Postgrad,1,2,approve
+2,3,30-49,Some Degree,1,1,approve
+1,4,65+,Some Degree,1,1,approve
+2,2,18-29,HC or Less,1,7,disapprove
+2,2,65+,HC or Less,1,1,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,4,30-49,Some Degree,1,1,approve
+1,2,50-64,HC or Less,1,7,disapprove
+2,2,30-49,HC or Less,1,4,neither
+1,6,30-49,Postgrad,1,1,approve
+1,3,65+,Some Degree,1,7,disapprove
+1,3,50-64,Some Degree,1,7,disapprove
+2,2,65+,HC or Less,1,1,approve
+2,4,18-29,Some Degree,1,5,disapprove
+1,4,65+,Some Degree,1,2,approve
+1,5,65+,College Grad,1,2,approve
+2,2,65+,HC or Less,1,1,approve
+1,8,30-49,Postgrad,1,1,approve
+2,5,65+,College Grad,1,6,disapprove
+1,6,50-64,Postgrad,1,2,approve
+1,3,50-64,Some Degree,1,7,disapprove
+1,3,65+,Some Degree,1,7,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+2,1,50-64,HC or Less,1,4,neither
+1,6,30-49,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+1,6,65+,Postgrad,1,6,disapprove
+2,2,30-49,HC or Less,1,2,approve
+1,3,65+,Some Degree,1,7,disapprove
+1,2,50-64,HC or Less,1,3,approve
+2,2,50-64,HC or Less,1,1,approve
+1,2,65+,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,7,disapprove
+1,5,18-29,College Grad,1,5,disapprove
+1,4,50-64,Some Degree,1,3,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,4,30-49,Some Degree,1,3,approve
+2,2,65+,HC or Less,1,1,approve
+1,5,50-64,College Grad,1,1,approve
+2,2,18-29,HC or Less,1,7,disapprove
+2,4,50-64,Some Degree,1,6,disapprove
+1,5,50-64,College Grad,1,2,approve
+1,5,65+,College Grad,1,2,approve
+1,3,50-64,Some Degree,1,7,disapprove
+1,4,65+,Some Degree,1,2,approve
+2,1,65+,HC or Less,1,2,approve
+1,5,65+,College Grad,1,2,approve
+2,2,65+,HC or Less,1,6,disapprove
+1,6,50-64,Postgrad,1,6,disapprove
+2,4,65+,Some Degree,1,2,approve
+2,2,30-49,HC or Less,1,2,approve
+2,6,30-49,Postgrad,1,7,disapprove
+1,4,65+,Some Degree,1,6,disapprove
+2,2,65+,HC or Less,1,4,neither
+1,4,65+,Some Degree,1,3,approve
+2,4,30-49,Some Degree,1,7,disapprove
+1,5,50-64,College Grad,1,2,approve
+2,3,65+,Some Degree,1,2,approve
+1,4,30-49,Some Degree,1,2,approve
+2,3,65+,Some Degree,1,1,approve
+1,6,50-64,Postgrad,1,6,disapprove
+2,3,65+,Some Degree,1,6,disapprove
+2,2,30-49,HC or Less,1,3,approve
+1,8,50-64,Postgrad,1,7,disapprove
+1,6,18-29,Postgrad,1,1,approve
+1,5,30-49,College Grad,1,3,approve
+1,2,18-29,HC or Less,1,3,approve
+1,5,50-64,College Grad,1,7,disapprove
+1,2,65+,HC or Less,1,1,approve
+1,3,65+,Some Degree,1,1,approve
+2,4,50-64,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+2,4,50-64,Some Degree,1,1,approve
+1,5,50-64,College Grad,1,1,approve
+1,3,65+,Some Degree,1,7,disapprove
+2,4,18-29,Some Degree,1,3,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,5,30-49,College Grad,1,7,disapprove
+2,3,50-64,Some Degree,1,6,disapprove
+2,8,30-49,Postgrad,1,5,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+2,2,30-49,HC or Less,1,2,approve
+1,6,50-64,Postgrad,1,1,approve
+2,2,18-29,HC or Less,1,1,approve
+1,3,30-49,Some Degree,1,4,neither
+2,2,50-64,HC or Less,1,2,approve
+1,5,30-49,College Grad,1,1,approve
+2,2,65+,HC or Less,1,4,neither
+1,5,18-29,College Grad,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+1,2,30-49,HC or Less,1,5,disapprove
+2,1,50-64,HC or Less,1,6,disapprove
+2,3,18-29,Some Degree,1,3,approve
+1,5,65+,College Grad,1,2,approve
+1,5,65+,College Grad,1,3,approve
+2,5,50-64,College Grad,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,1,approve
+1,7,50-64,Postgrad,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+1,2,30-49,HC or Less,1,6,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,2,approve
+2,3,50-64,Some Degree,1,1,approve
+2,1,30-49,HC or Less,1,7,disapprove
+1,5,65+,College Grad,1,1,approve
+2,3,65+,Some Degree,1,2,approve
+1,2,50-64,HC or Less,1,7,disapprove
+2,2,30-49,HC or Less,1,1,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,4,50-64,Some Degree,1,7,disapprove
+2,4,30-49,Some Degree,1,7,disapprove
+1,6,50-64,Postgrad,1,6,disapprove
+2,2,65+,HC or Less,1,3,approve
+2,2,50-64,HC or Less,1,2,approve
+1,4,65+,Some Degree,1,2,approve
+2,3,30-49,Some Degree,1,2,approve
+1,6,30-49,Postgrad,1,1,approve
+2,3,65+,Some Degree,1,7,disapprove
+1,4,50-64,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,1,approve
+1,2,65+,HC or Less,1,2,approve
+1,5,50-64,College Grad,1,1,approve
+1,2,30-49,HC or Less,1,7,disapprove
+1,4,50-64,Some Degree,1,2,approve
+1,5,65+,College Grad,1,1,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,2,65+,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,6,disapprove
+2,2,30-49,HC or Less,1,4,neither
+2,6,30-49,Postgrad,1,3,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,1,approve
+2,2,65+,HC or Less,1,7,disapprove
+1,6,50-64,Postgrad,1,2,approve
+2,5,50-64,College Grad,1,4,neither
+2,3,18-29,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,2,approve
+2,4,30-49,Some Degree,1,4,neither
+2,2,30-49,HC or Less,1,3,approve
+2,2,30-49,HC or Less,1,2,approve
+1,6,30-49,Postgrad,1,2,approve
+2,5,30-49,College Grad,1,1,approve
+1,2,65+,HC or Less,1,7,disapprove
+1,3,65+,Some Degree,1,7,disapprove
+1,1,50-64,HC or Less,1,3,approve
+2,7,50-64,Postgrad,1,7,disapprove
+1,4,65+,Some Degree,1,4,neither
+2,2,65+,HC or Less,1,2,approve
+1,8,30-49,Postgrad,1,1,approve
+2,6,30-49,Postgrad,1,1,approve
+1,5,65+,College Grad,1,7,disapprove
+2,4,30-49,Some Degree,1,2,approve
+1,5,65+,College Grad,1,2,approve
+1,5,65+,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,1,approve
+1,5,65+,College Grad,1,6,disapprove
+2,4,50-64,Some Degree,1,1,approve
+2,2,30-49,HC or Less,1,2,approve
+1,5,65+,College Grad,1,7,disapprove
+2,6,30-49,Postgrad,1,1,approve
+1,6,30-49,Postgrad,1,2,approve
+1,2,50-64,HC or Less,1,3,approve
+2,3,30-49,Some Degree,1,7,disapprove
+1,2,50-64,HC or Less,1,5,disapprove
+2,5,30-49,College Grad,1,5,disapprove
+2,4,18-29,Some Degree,1,3,approve
+2,2,30-49,HC or Less,1,1,approve
+2,5,65+,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,2,approve
+2,3,65+,Some Degree,1,2,approve
+2,2,65+,HC or Less,1,1,approve
+2,5,50-64,College Grad,1,6,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,1,approve
+1,6,30-49,Postgrad,1,7,disapprove
+2,3,65+,Some Degree,1,2,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,4,50-64,Some Degree,1,3,approve
+2,2,50-64,HC or Less,1,5,disapprove
+2,4,50-64,Some Degree,1,2,approve
+2,5,65+,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+1,3,18-29,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,1,approve
+1,2,50-64,HC or Less,1,1,approve
+1,6,65+,Postgrad,1,6,disapprove
+2,5,65+,College Grad,1,2,approve
+2,2,65+,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,7,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,6,30-49,Postgrad,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,3,30-49,Some Degree,1,1,approve
+1,2,50-64,HC or Less,1,1,approve
+1,2,65+,HC or Less,1,6,disapprove
+2,5,65+,College Grad,1,6,disapprove
+2,4,18-29,Some Degree,1,3,approve
+1,2,65+,HC or Less,1,2,approve
+1,3,50-64,Some Degree,1,1,approve
+2,4,30-49,Some Degree,1,2,approve
+2,2,65+,HC or Less,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,5,disapprove
+1,1,30-49,HC or Less,1,3,approve
+2,3,65+,Some Degree,1,1,approve
+1,6,30-49,Postgrad,1,2,approve
+1,5,50-64,College Grad,1,2,approve
+2,5,65+,College Grad,1,7,disapprove
+1,5,50-64,College Grad,1,1,approve
+1,5,30-49,College Grad,1,1,approve
+1,2,18-29,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,3,approve
+2,3,50-64,Some Degree,1,3,approve
+2,1,18-29,HC or Less,1,1,approve
+1,5,65+,College Grad,1,7,disapprove
+2,5,65+,College Grad,1,6,disapprove
+2,3,50-64,Some Degree,1,3,approve
+1,6,65+,Postgrad,1,2,approve
+1,4,50-64,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,1,approve
+2,3,30-49,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,1,approve
+1,5,30-49,College Grad,1,4,neither
+2,2,18-29,HC or Less,1,4,neither
+2,8,30-49,Postgrad,1,7,disapprove
+1,4,50-64,Some Degree,1,2,approve
+2,4,50-64,Some Degree,1,1,approve
+1,2,50-64,HC or Less,1,4,neither
+2,2,30-49,HC or Less,1,4,neither
+2,6,65+,Postgrad,1,7,disapprove
+2,2,65+,HC or Less,1,6,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,2,18-29,HC or Less,1,5,disapprove
+1,6,30-49,Postgrad,1,5,disapprove
+1,3,65+,Some Degree,1,7,disapprove
+2,6,30-49,Postgrad,1,6,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+2,5,30-49,College Grad,1,3,approve
+2,2,65+,HC or Less,1,7,disapprove
+1,2,65+,HC or Less,1,6,disapprove
+1,6,30-49,Postgrad,1,3,approve
+2,5,30-49,College Grad,1,4,neither
+2,3,50-64,Some Degree,1,2,approve
+2,3,50-64,Some Degree,1,5,disapprove
+2,6,65+,Postgrad,1,2,approve
+2,3,50-64,Some Degree,1,3,approve
+1,5,30-49,College Grad,1,2,approve
+2,1,50-64,HC or Less,1,4,neither
+2,6,30-49,Postgrad,1,1,approve
+1,5,65+,College Grad,1,1,approve
+2,6,30-49,Postgrad,1,3,approve
+2,5,65+,College Grad,1,3,approve
+2,4,50-64,Some Degree,1,2,approve
+1,2,50-64,HC or Less,1,7,disapprove
+2,1,30-49,HC or Less,1,2,approve
+2,6,30-49,Postgrad,1,5,disapprove
+1,3,18-29,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,5,65+,College Grad,1,7,disapprove
+1,8,30-49,Postgrad,1,2,approve
+2,1,30-49,HC or Less,1,7,disapprove
+1,2,30-49,HC or Less,1,4,neither
+2,4,30-49,Some Degree,1,7,disapprove
+1,7,30-49,Postgrad,1,2,approve
+2,2,50-64,HC or Less,1,6,disapprove
+2,2,18-29,HC or Less,1,4,neither
+1,4,50-64,Some Degree,1,3,approve
+1,3,30-49,Some Degree,1,6,disapprove
+2,7,50-64,Postgrad,1,2,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,5,50-64,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,2,50-64,HC or Less,1,5,disapprove
+2,2,50-64,HC or Less,1,1,approve
+1,2,18-29,HC or Less,1,7,disapprove
+2,2,65+,HC or Less,1,3,approve
+1,5,65+,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,4,neither
+1,6,30-49,Postgrad,1,2,approve
+2,5,50-64,College Grad,1,1,approve
+1,5,65+,College Grad,1,7,disapprove
+2,6,65+,Postgrad,1,7,disapprove
+2,7,30-49,Postgrad,1,6,disapprove
+2,3,50-64,Some Degree,1,1,approve
+1,7,30-49,Postgrad,1,3,approve
+2,6,65+,Postgrad,1,7,disapprove
+2,3,50-64,Some Degree,1,2,approve
+2,4,65+,Some Degree,1,6,disapprove
+1,5,50-64,College Grad,1,7,disapprove
+2,2,18-29,HC or Less,1,7,disapprove
+1,6,30-49,Postgrad,1,2,approve
+1,1,30-49,HC or Less,1,1,approve
+1,6,65+,Postgrad,1,7,disapprove
+1,3,50-64,Some Degree,1,3,approve
+2,5,30-49,College Grad,1,4,neither
+1,5,50-64,College Grad,1,7,disapprove
+2,5,18-29,College Grad,1,1,approve
+2,5,50-64,College Grad,1,7,disapprove
+1,5,50-64,College Grad,1,1,approve
+1,2,50-64,HC or Less,1,3,approve
+2,5,50-64,College Grad,1,7,disapprove
+2,5,30-49,College Grad,1,2,approve
+2,5,65+,College Grad,1,1,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,5,18-29,College Grad,1,6,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,6,65+,Postgrad,1,7,disapprove
+1,5,50-64,College Grad,1,7,disapprove
+1,5,50-64,College Grad,1,1,approve
+2,3,50-64,Some Degree,1,3,approve
+2,3,50-64,Some Degree,1,3,approve
+1,5,30-49,College Grad,1,4,neither
+1,3,50-64,Some Degree,1,2,approve
+1,5,30-49,College Grad,1,2,approve
+1,3,18-29,Some Degree,1,1,approve
+2,1,30-49,HC or Less,1,4,neither
+1,2,50-64,HC or Less,1,7,disapprove
+1,4,30-49,Some Degree,1,6,disapprove
+1,7,65+,Postgrad,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+2,1,50-64,HC or Less,1,2,approve
+1,2,50-64,HC or Less,1,6,disapprove
+2,2,18-29,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,3,65+,Some Degree,1,4,neither
+2,3,30-49,Some Degree,1,7,disapprove
+1,3,65+,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,3,approve
+2,3,30-49,Some Degree,1,7,disapprove
+2,3,50-64,Some Degree,1,5,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+1,6,50-64,Postgrad,1,3,approve
+2,6,30-49,Postgrad,1,7,disapprove
+1,8,30-49,Postgrad,1,2,approve
+1,3,18-29,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,3,approve
+1,2,18-29,HC or Less,1,4,neither
+1,3,65+,Some Degree,1,6,disapprove
+1,3,30-49,Some Degree,1,1,approve
+2,2,65+,HC or Less,1,2,approve
+1,6,30-49,Postgrad,1,1,approve
+2,2,65+,HC or Less,1,2,approve
+2,2,50-64,HC or Less,1,1,approve
+1,5,65+,College Grad,1,7,disapprove
+1,3,30-49,Some Degree,1,3,approve
+2,2,65+,HC or Less,1,6,disapprove
+1,5,30-49,College Grad,1,4,neither
+1,5,30-49,College Grad,1,7,disapprove
+2,6,30-49,Postgrad,1,3,approve
+1,7,30-49,Postgrad,1,5,disapprove
+2,2,18-29,HC or Less,1,6,disapprove
+1,8,30-49,Postgrad,1,2,approve
+2,2,65+,HC or Less,1,2,approve
+1,6,65+,Postgrad,1,3,approve
+2,3,30-49,Some Degree,1,6,disapprove
+1,2,65+,HC or Less,1,2,approve
+2,6,65+,Postgrad,1,7,disapprove
+1,6,30-49,Postgrad,1,7,disapprove
+2,1,50-64,HC or Less,1,3,approve
+1,5,50-64,College Grad,1,4,neither
+2,1,18-29,HC or Less,1,4,neither
+2,2,30-49,HC or Less,1,2,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,4,neither
+1,5,30-49,College Grad,1,2,approve
+2,6,65+,Postgrad,1,7,disapprove
+2,2,65+,HC or Less,1,2,approve
+2,3,65+,Some Degree,1,3,approve
+1,3,50-64,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,6,30-49,Postgrad,1,2,approve
+2,3,30-49,Some Degree,1,7,disapprove
+2,1,50-64,HC or Less,1,4,neither
+2,3,30-49,Some Degree,1,4,neither
+1,5,50-64,College Grad,1,6,disapprove
+2,4,30-49,Some Degree,1,3,approve
+2,3,30-49,Some Degree,1,5,disapprove
+2,6,18-29,Postgrad,1,3,approve
+1,2,65+,HC or Less,1,1,approve
+1,4,50-64,Some Degree,1,7,disapprove
+1,3,30-49,Some Degree,1,2,approve
+1,3,50-64,Some Degree,1,2,approve
+2,3,50-64,Some Degree,1,2,approve
+2,2,50-64,HC or Less,1,1,approve
+1,4,50-64,Some Degree,1,1,approve
+2,8,50-64,Postgrad,1,5,disapprove
+1,2,65+,HC or Less,1,2,approve
+2,5,18-29,College Grad,1,1,approve
+2,5,18-29,College Grad,1,4,neither
+1,5,30-49,College Grad,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+1,7,30-49,Postgrad,1,2,approve
+2,3,50-64,Some Degree,1,5,disapprove
+1,5,30-49,College Grad,1,7,disapprove
+2,2,18-29,HC or Less,1,3,approve
+2,2,65+,HC or Less,1,1,approve
+2,4,50-64,Some Degree,1,6,disapprove
+2,5,50-64,College Grad,1,4,neither
+2,1,50-64,HC or Less,1,5,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+1,5,65+,College Grad,1,1,approve
+1,3,65+,Some Degree,1,4,neither
+1,5,30-49,College Grad,1,3,approve
+2,3,30-49,Some Degree,1,3,approve
+2,4,65+,Some Degree,1,1,approve
+2,5,30-49,College Grad,1,2,approve
+2,4,50-64,Some Degree,1,4,neither
+1,3,30-49,Some Degree,1,7,disapprove
+1,4,65+,Some Degree,1,2,approve
+2,2,50-64,HC or Less,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,6,30-49,Postgrad,1,3,approve
+2,2,50-64,HC or Less,1,3,approve
+1,5,65+,College Grad,1,7,disapprove
+1,2,18-29,HC or Less,1,5,disapprove
+1,5,30-49,College Grad,1,3,approve
+2,6,30-49,Postgrad,1,7,disapprove
+2,3,30-49,Some Degree,1,6,disapprove
+2,8,30-49,Postgrad,1,1,approve
+2,2,65+,HC or Less,1,7,disapprove
+2,1,65+,HC or Less,1,1,approve
+1,2,50-64,HC or Less,1,1,approve
+2,3,50-64,Some Degree,1,2,approve
+1,6,50-64,Postgrad,1,1,approve
+1,3,65+,Some Degree,1,2,approve
+2,2,18-29,HC or Less,1,1,approve
+1,7,30-49,Postgrad,1,1,approve
+1,7,30-49,Postgrad,1,2,approve
+1,2,30-49,HC or Less,1,2,approve
+2,4,30-49,Some Degree,1,5,disapprove
+2,3,30-49,Some Degree,1,7,disapprove
+2,4,50-64,Some Degree,1,7,disapprove
+1,3,18-29,Some Degree,1,3,approve
+1,4,65+,Some Degree,1,3,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,5,50-64,College Grad,1,3,approve
+1,5,50-64,College Grad,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+1,1,50-64,HC or Less,1,7,disapprove
+2,4,50-64,Some Degree,1,2,approve
+2,2,18-29,HC or Less,1,7,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+1,6,30-49,Postgrad,1,1,approve
+2,4,18-29,Some Degree,1,7,disapprove
+2,7,30-49,Postgrad,1,6,disapprove
+1,6,65+,Postgrad,1,7,disapprove
+2,7,30-49,Postgrad,1,1,approve
+2,6,65+,Postgrad,1,7,disapprove
+2,2,65+,HC or Less,1,4,neither
+1,3,65+,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,2,65+,HC or Less,1,2,approve
+1,5,65+,College Grad,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+1,2,30-49,HC or Less,1,2,approve
+2,2,50-64,HC or Less,1,3,approve
+1,5,30-49,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,7,disapprove
+2,5,30-49,College Grad,1,2,approve
+2,2,50-64,HC or Less,1,1,approve
+2,6,30-49,Postgrad,1,7,disapprove
+2,4,30-49,Some Degree,1,3,approve
+2,2,50-64,HC or Less,1,6,disapprove
+1,6,50-64,Postgrad,1,7,disapprove
+2,2,50-64,HC or Less,1,1,approve
+1,2,18-29,HC or Less,1,7,disapprove
+2,2,30-49,HC or Less,1,6,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,7,disapprove
+1,4,30-49,Some Degree,1,3,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+1,6,30-49,Postgrad,1,1,approve
+1,3,65+,Some Degree,1,2,approve
+1,2,50-64,HC or Less,1,1,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,7,30-49,Postgrad,1,2,approve
+2,2,50-64,HC or Less,1,7,disapprove
+2,5,30-49,College Grad,1,5,disapprove
+2,1,50-64,HC or Less,1,7,disapprove
+2,4,50-64,Some Degree,1,1,approve
+2,2,65+,HC or Less,1,7,disapprove
+1,5,65+,College Grad,1,6,disapprove
+2,4,50-64,Some Degree,1,2,approve
+1,4,50-64,Some Degree,1,6,disapprove
+2,4,18-29,Some Degree,1,6,disapprove
+1,3,18-29,Some Degree,1,1,approve
+1,8,30-49,Postgrad,1,1,approve
+1,8,65+,Postgrad,1,1,approve
+1,2,65+,HC or Less,1,5,disapprove
+2,2,50-64,HC or Less,1,5,disapprove
+2,5,30-49,College Grad,1,1,approve
+2,3,18-29,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,1,approve
+2,5,30-49,College Grad,1,5,disapprove
+1,7,30-49,Postgrad,1,2,approve
+1,2,30-49,HC or Less,1,1,approve
+2,6,65+,Postgrad,1,1,approve
+1,1,18-29,HC or Less,1,1,approve
+1,5,50-64,College Grad,1,2,approve
+1,3,30-49,Some Degree,1,1,approve
+2,6,50-64,Postgrad,1,6,disapprove
+1,2,30-49,HC or Less,1,7,disapprove
+2,6,50-64,Postgrad,1,5,disapprove
+1,2,18-29,HC or Less,1,4,neither
+2,2,18-29,HC or Less,1,3,approve
+2,5,65+,College Grad,1,7,disapprove
+1,3,18-29,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,6,disapprove
+2,7,18-29,Postgrad,1,7,disapprove
+2,4,65+,Some Degree,1,1,approve
+1,4,30-49,Some Degree,1,3,approve
+2,3,50-64,Some Degree,1,2,approve
+2,4,30-49,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,2,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,2,approve
+1,3,65+,Some Degree,1,1,approve
+2,2,30-49,HC or Less,1,5,disapprove
+2,2,65+,HC or Less,1,1,approve
+2,6,50-64,Postgrad,1,3,approve
+2,2,30-49,HC or Less,1,7,disapprove
+2,5,50-64,College Grad,1,7,disapprove
+1,5,50-64,College Grad,1,7,disapprove
+1,5,18-29,College Grad,1,4,neither
+1,8,30-49,Postgrad,1,1,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,3,65+,Some Degree,1,1,approve
+2,4,18-29,Some Degree,1,5,disapprove
+2,5,18-29,College Grad,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+2,2,50-64,HC or Less,1,2,approve
+1,2,65+,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,5,18-29,College Grad,1,3,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,3,65+,Some Degree,1,5,disapprove
+1,3,18-29,Some Degree,1,3,approve
+2,2,65+,HC or Less,1,7,disapprove
+2,6,65+,Postgrad,1,7,disapprove
+1,7,30-49,Postgrad,1,1,approve
+2,2,50-64,HC or Less,1,2,approve
+2,5,50-64,College Grad,1,2,approve
+2,5,50-64,College Grad,1,1,approve
+2,5,50-64,College Grad,1,7,disapprove
+2,2,30-49,HC or Less,1,4,neither
+2,4,65+,Some Degree,1,6,disapprove
+2,4,18-29,Some Degree,1,6,disapprove
+2,1,30-49,HC or Less,1,4,neither
+1,3,30-49,Some Degree,1,2,approve
+1,5,30-49,College Grad,1,7,disapprove
+1,6,30-49,Postgrad,1,6,disapprove
+2,3,50-64,Some Degree,1,6,disapprove
+1,5,50-64,College Grad,1,1,approve
+1,3,50-64,Some Degree,1,5,disapprove
+1,5,65+,College Grad,1,7,disapprove
+1,7,50-64,Postgrad,1,7,disapprove
+1,2,30-49,HC or Less,1,2,approve
+2,4,30-49,Some Degree,1,4,neither
+1,5,18-29,College Grad,1,5,disapprove
+2,5,30-49,College Grad,1,4,neither
+2,2,30-49,HC or Less,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+2,1,18-29,HC or Less,1,4,neither
+2,2,18-29,HC or Less,1,7,disapprove
+2,3,30-49,Some Degree,1,7,disapprove
+2,6,65+,Postgrad,1,7,disapprove
+1,7,30-49,Postgrad,1,7,disapprove
+1,3,30-49,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,2,30-49,HC or Less,1,2,approve
+1,3,18-29,Some Degree,1,5,disapprove
+2,2,50-64,HC or Less,1,3,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,5,18-29,College Grad,1,1,approve
+2,3,65+,Some Degree,1,3,approve
+2,5,30-49,College Grad,1,3,approve
+1,5,30-49,College Grad,1,4,neither
+1,4,30-49,Some Degree,1,5,disapprove
+1,6,30-49,Postgrad,1,5,disapprove
+1,1,50-64,HC or Less,1,5,disapprove
+2,2,30-49,HC or Less,1,2,approve
+2,3,50-64,Some Degree,1,6,disapprove
+2,5,65+,College Grad,1,7,disapprove
+1,2,65+,HC or Less,1,7,disapprove
+1,5,30-49,College Grad,1,3,approve
+1,5,30-49,College Grad,1,2,approve
+2,6,50-64,Postgrad,1,2,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,5,65+,College Grad,1,2,approve
+1,3,50-64,Some Degree,1,3,approve
+1,5,65+,College Grad,1,1,approve
+1,2,65+,HC or Less,1,2,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,6,65+,Postgrad,1,7,disapprove
+2,2,50-64,HC or Less,1,2,approve
+1,3,65+,Some Degree,1,2,approve
+2,4,65+,Some Degree,1,1,approve
+2,2,50-64,HC or Less,1,1,approve
+2,5,65+,College Grad,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+2,6,65+,Postgrad,1,1,approve
+1,3,18-29,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,6,disapprove
+1,7,65+,Postgrad,1,2,approve
+2,4,50-64,Some Degree,1,7,disapprove
+2,3,30-49,Some Degree,1,4,neither
+2,2,30-49,HC or Less,1,4,neither
+1,2,65+,HC or Less,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,6,30-49,Postgrad,1,4,neither
+2,1,65+,HC or Less,1,1,approve
+1,5,30-49,College Grad,1,3,approve
+1,3,65+,Some Degree,1,7,disapprove
+2,6,65+,Postgrad,1,3,approve
+1,6,30-49,Postgrad,1,5,disapprove
+1,6,30-49,Postgrad,1,1,approve
+1,4,30-49,Some Degree,1,7,disapprove
+2,2,30-49,HC or Less,1,7,disapprove
+2,5,65+,College Grad,1,1,approve
+1,5,30-49,College Grad,1,3,approve
+1,6,65+,Postgrad,1,7,disapprove
+2,2,50-64,HC or Less,1,5,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+2,3,50-64,Some Degree,1,7,disapprove
+2,6,50-64,Postgrad,1,6,disapprove
+1,5,30-49,College Grad,1,2,approve
+2,4,50-64,Some Degree,1,1,approve
+2,4,50-64,Some Degree,1,2,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,3,30-49,Some Degree,1,7,disapprove
+2,3,18-29,Some Degree,1,7,disapprove
+2,5,18-29,College Grad,1,5,disapprove
+2,4,65+,Some Degree,1,2,approve
+2,2,65+,HC or Less,1,1,approve
+1,5,30-49,College Grad,1,3,approve
+2,5,30-49,College Grad,1,5,disapprove
+1,2,65+,HC or Less,1,3,approve
+2,5,30-49,College Grad,1,7,disapprove
+1,5,65+,College Grad,1,1,approve
+1,6,50-64,Postgrad,1,7,disapprove
+2,4,65+,Some Degree,1,7,disapprove
+2,6,65+,Postgrad,1,1,approve
+2,4,50-64,Some Degree,1,2,approve
+2,4,30-49,Some Degree,1,7,disapprove
+1,5,65+,College Grad,1,2,approve
+1,5,30-49,College Grad,1,7,disapprove
+2,2,50-64,HC or Less,1,7,disapprove
+1,3,30-49,Some Degree,1,7,disapprove
+2,6,30-49,Postgrad,1,3,approve
+1,6,30-49,Postgrad,1,3,approve
+1,4,65+,Some Degree,1,7,disapprove
+2,4,65+,Some Degree,1,1,approve
+1,5,50-64,College Grad,1,3,approve
+1,6,30-49,Postgrad,1,1,approve
+2,3,65+,Some Degree,1,6,disapprove
+2,2,30-49,HC or Less,1,2,approve
+1,6,30-49,Postgrad,1,2,approve
+2,3,65+,Some Degree,1,7,disapprove
+2,3,65+,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,1,approve
+1,3,50-64,Some Degree,1,4,neither
+1,2,50-64,HC or Less,1,7,disapprove
+1,3,65+,Some Degree,1,1,approve
+2,5,65+,College Grad,1,3,approve
+1,5,30-49,College Grad,1,2,approve
+2,2,65+,HC or Less,1,1,approve
+2,6,65+,Postgrad,1,7,disapprove
+1,3,50-64,Some Degree,1,1,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,18-29,Some Degree,1,6,disapprove
+2,4,50-64,Some Degree,1,6,disapprove
+2,2,65+,HC or Less,1,7,disapprove
+2,3,50-64,Some Degree,1,2,approve
+1,5,50-64,College Grad,1,7,disapprove
+2,7,50-64,Postgrad,1,1,approve
+2,1,65+,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,4,neither
+1,2,65+,HC or Less,1,3,approve
+2,5,30-49,College Grad,1,2,approve
+1,6,30-49,Postgrad,1,1,approve
+2,4,65+,Some Degree,1,3,approve
+2,6,30-49,Postgrad,1,4,neither
+1,6,50-64,Postgrad,1,5,disapprove
+2,4,18-29,Some Degree,1,6,disapprove
+1,3,65+,Some Degree,1,2,approve
+2,3,50-64,Some Degree,1,5,disapprove
+1,3,65+,Some Degree,1,7,disapprove
+1,3,30-49,Some Degree,1,4,neither
+1,3,65+,Some Degree,1,7,disapprove
+1,3,50-64,Some Degree,1,6,disapprove
+2,2,65+,HC or Less,1,2,approve
+1,2,30-49,HC or Less,1,2,approve
+1,6,30-49,Postgrad,1,5,disapprove
+1,4,30-49,Some Degree,1,6,disapprove
+2,4,30-49,Some Degree,1,6,disapprove
+2,6,65+,Postgrad,1,2,approve
+2,6,30-49,Postgrad,1,1,approve
+2,2,18-29,HC or Less,1,4,neither
+2,5,30-49,College Grad,1,1,approve
+2,5,18-29,College Grad,1,2,approve
+2,3,50-64,Some Degree,1,7,disapprove
+1,5,30-49,College Grad,1,2,approve
+1,6,18-29,Postgrad,1,2,approve
+1,7,30-49,Postgrad,1,1,approve
+1,5,30-49,College Grad,1,1,approve
+1,4,30-49,Some Degree,1,2,approve
+1,3,18-29,Some Degree,1,6,disapprove
+2,2,30-49,HC or Less,1,5,disapprove
+1,2,30-49,HC or Less,1,7,disapprove
+1,5,18-29,College Grad,1,7,disapprove
+1,5,18-29,College Grad,1,3,approve
+2,5,30-49,College Grad,1,7,disapprove
+2,3,18-29,Some Degree,1,3,approve
+2,5,50-64,College Grad,2,3,approve
+2,7,50-64,Postgrad,2,1,approve
+2,1,30-49,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,3,approve
+1,1,18-29,HC or Less,2,7,disapprove
+1,4,18-29,Some Degree,2,6,disapprove
+2,4,30-49,Some Degree,2,2,approve
+2,5,30-49,College Grad,2,3,approve
+2,2,30-49,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+2,3,65+,Some Degree,2,2,approve
+2,2,18-29,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+1,3,18-29,Some Degree,2,3,approve
+2,2,50-64,HC or Less,2,5,disapprove
+2,7,30-49,Postgrad,2,2,approve
+1,2,30-49,HC or Less,2,4,neither
+1,5,50-64,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+1,6,50-64,Postgrad,2,6,disapprove
+2,4,50-64,Some Degree,2,3,approve
+1,8,30-49,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,3,approve
+1,2,30-49,HC or Less,2,4,neither
+1,7,65+,Postgrad,2,7,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+2,3,65+,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,4,neither
+2,4,50-64,Some Degree,2,1,approve
+2,6,65+,Postgrad,2,7,disapprove
+2,2,50-64,HC or Less,2,4,neither
+1,5,50-64,College Grad,2,4,neither
+2,2,65+,HC or Less,2,6,disapprove
+2,8,30-49,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,1,approve
+2,3,50-64,Some Degree,2,4,neither
+2,4,30-49,Some Degree,2,2,approve
+1,2,18-29,HC or Less,2,4,neither
+1,5,65+,College Grad,2,1,approve
+2,2,18-29,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+1,8,30-49,Postgrad,2,2,approve
+2,4,30-49,Some Degree,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+2,4,30-49,Some Degree,2,4,neither
+2,4,65+,Some Degree,2,1,approve
+1,3,30-49,Some Degree,2,1,approve
+2,7,65+,Postgrad,2,7,disapprove
+1,3,50-64,Some Degree,2,2,approve
+1,2,65+,HC or Less,2,2,approve
+1,5,30-49,College Grad,2,2,approve
+1,2,30-49,HC or Less,2,3,approve
+2,2,65+,HC or Less,2,4,neither
+2,5,65+,College Grad,2,4,neither
+2,2,65+,HC or Less,2,7,disapprove
+2,1,30-49,HC or Less,2,3,approve
+2,5,18-29,College Grad,2,4,neither
+2,2,50-64,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,2,approve
+2,5,18-29,College Grad,2,4,neither
+1,2,18-29,HC or Less,2,6,disapprove
+1,1,65+,HC or Less,2,1,approve
+2,3,50-64,Some Degree,2,1,approve
+1,5,30-49,College Grad,2,2,approve
+2,5,30-49,College Grad,2,4,neither
+1,6,30-49,Postgrad,2,1,approve
+2,3,50-64,Some Degree,2,2,approve
+2,3,65+,Some Degree,2,2,approve
+1,6,30-49,Postgrad,2,3,approve
+2,1,30-49,HC or Less,2,4,neither
+2,4,50-64,Some Degree,2,3,approve
+2,3,65+,Some Degree,2,1,approve
+2,6,50-64,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,4,neither
+2,2,30-49,HC or Less,2,1,approve
+2,3,30-49,Some Degree,2,4,neither
+1,3,65+,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,4,neither
+2,2,30-49,HC or Less,2,7,disapprove
+2,7,30-49,Postgrad,2,4,neither
+1,4,50-64,Some Degree,2,1,approve
+2,4,50-64,Some Degree,2,4,neither
+1,3,65+,Some Degree,2,3,approve
+1,5,30-49,College Grad,2,3,approve
+2,2,30-49,HC or Less,2,7,disapprove
+1,8,30-49,Postgrad,2,1,approve
+1,6,50-64,Postgrad,2,5,disapprove
+2,6,30-49,Postgrad,2,5,disapprove
+1,3,50-64,Some Degree,2,1,approve
+2,6,18-29,Postgrad,2,3,approve
+2,3,30-49,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+2,2,30-49,HC or Less,2,3,approve
+1,8,18-29,Postgrad,2,1,approve
+2,1,65+,HC or Less,2,2,approve
+2,2,30-49,HC or Less,2,2,approve
+2,5,50-64,College Grad,2,5,disapprove
+2,7,30-49,Postgrad,2,1,approve
+1,2,65+,HC or Less,2,1,approve
+2,1,30-49,HC or Less,2,4,neither
+1,3,65+,Some Degree,2,2,approve
+2,5,18-29,College Grad,2,4,neither
+2,2,50-64,HC or Less,2,1,approve
+2,2,50-64,HC or Less,2,1,approve
+2,4,65+,Some Degree,2,6,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,5,18-29,College Grad,2,4,neither
+1,7,30-49,Postgrad,2,1,approve
+2,5,65+,College Grad,2,7,disapprove
+1,7,50-64,Postgrad,2,5,disapprove
+2,4,30-49,Some Degree,2,3,approve
+2,7,30-49,Postgrad,2,3,approve
+1,8,30-49,Postgrad,2,7,disapprove
+1,4,65+,Some Degree,2,1,approve
+1,2,50-64,HC or Less,2,1,approve
+1,6,65+,Postgrad,2,7,disapprove
+2,5,18-29,College Grad,2,5,disapprove
+1,1,18-29,HC or Less,2,7,disapprove
+2,3,30-49,Some Degree,2,4,neither
+1,5,65+,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+2,7,50-64,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,6,65+,Postgrad,2,2,approve
+2,3,18-29,Some Degree,2,3,approve
+2,3,18-29,Some Degree,2,7,disapprove
+1,3,50-64,Some Degree,2,4,neither
+1,7,50-64,Postgrad,2,7,disapprove
+1,2,18-29,HC or Less,2,4,neither
+1,6,50-64,Postgrad,2,5,disapprove
+1,2,30-49,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+1,3,18-29,Some Degree,2,3,approve
+2,1,18-29,HC or Less,2,7,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+2,2,30-49,HC or Less,2,7,disapprove
+2,2,65+,HC or Less,2,2,approve
+1,3,65+,Some Degree,2,6,disapprove
+1,6,30-49,Postgrad,2,7,disapprove
+2,4,65+,Some Degree,2,4,neither
+1,4,30-49,Some Degree,2,6,disapprove
+2,5,30-49,College Grad,2,5,disapprove
+1,2,50-64,HC or Less,2,5,disapprove
+1,4,30-49,Some Degree,2,3,approve
+1,2,65+,HC or Less,2,2,approve
+1,5,30-49,College Grad,2,4,neither
+1,3,18-29,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,5,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,2,65+,HC or Less,2,1,approve
+2,2,30-49,HC or Less,2,4,neither
+2,6,65+,Postgrad,2,7,disapprove
+2,4,50-64,Some Degree,2,2,approve
+1,2,50-64,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,1,approve
+1,6,30-49,Postgrad,2,3,approve
+2,3,50-64,Some Degree,2,2,approve
+1,5,50-64,College Grad,2,4,neither
+2,7,18-29,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,3,approve
+2,2,30-49,HC or Less,2,2,approve
+1,4,30-49,Some Degree,2,7,disapprove
+1,3,65+,Some Degree,2,2,approve
+2,5,65+,College Grad,2,7,disapprove
+2,5,50-64,College Grad,2,3,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,7,30-49,Postgrad,2,2,approve
+1,5,65+,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+1,6,30-49,Postgrad,2,2,approve
+1,3,50-64,Some Degree,2,3,approve
+2,2,30-49,HC or Less,2,7,disapprove
+1,2,30-49,HC or Less,2,4,neither
+1,3,65+,Some Degree,2,7,disapprove
+2,3,50-64,Some Degree,2,1,approve
+2,6,50-64,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+1,3,30-49,Some Degree,2,7,disapprove
+1,2,50-64,HC or Less,2,4,neither
+2,4,50-64,Some Degree,2,2,approve
+2,2,50-64,HC or Less,2,1,approve
+2,3,30-49,Some Degree,2,7,disapprove
+2,6,65+,Postgrad,2,7,disapprove
+1,4,50-64,Some Degree,2,5,disapprove
+2,3,30-49,Some Degree,2,5,disapprove
+2,2,30-49,HC or Less,2,4,neither
+2,5,50-64,College Grad,2,1,approve
+2,3,65+,Some Degree,2,1,approve
+2,3,30-49,Some Degree,2,6,disapprove
+1,3,30-49,Some Degree,2,2,approve
+2,1,65+,HC or Less,2,1,approve
+1,5,30-49,College Grad,2,7,disapprove
+2,4,30-49,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,4,neither
+2,6,30-49,Postgrad,2,1,approve
+1,3,18-29,Some Degree,2,3,approve
+2,3,18-29,Some Degree,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,7,disapprove
+2,3,50-64,Some Degree,2,2,approve
+2,2,50-64,HC or Less,2,4,neither
+2,5,50-64,College Grad,2,2,approve
+2,8,30-49,Postgrad,2,6,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,5,50-64,College Grad,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,3,30-49,Some Degree,2,1,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,5,18-29,College Grad,2,6,disapprove
+2,2,65+,HC or Less,2,1,approve
+1,5,50-64,College Grad,2,7,disapprove
+1,2,50-64,HC or Less,2,7,disapprove
+2,2,65+,HC or Less,2,2,approve
+2,7,30-49,Postgrad,2,4,neither
+2,2,30-49,HC or Less,2,7,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+2,6,50-64,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,1,approve
+2,6,18-29,Postgrad,2,2,approve
+2,4,30-49,Some Degree,2,1,approve
+2,3,50-64,Some Degree,2,7,disapprove
+2,2,18-29,HC or Less,2,2,approve
+2,2,18-29,HC or Less,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+2,2,65+,HC or Less,2,2,approve
+1,2,50-64,HC or Less,2,6,disapprove
+2,2,30-49,HC or Less,2,7,disapprove
+1,3,30-49,Some Degree,2,4,neither
+1,4,18-29,Some Degree,2,4,neither
+1,4,30-49,Some Degree,2,6,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+2,6,18-29,Postgrad,2,7,disapprove
+1,4,18-29,Some Degree,2,7,disapprove
+2,5,18-29,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,5,disapprove
+1,2,30-49,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+1,3,18-29,Some Degree,2,4,neither
+2,5,50-64,College Grad,2,2,approve
+1,6,50-64,Postgrad,2,7,disapprove
+1,7,50-64,Postgrad,2,7,disapprove
+1,6,65+,Postgrad,2,2,approve
+1,3,50-64,Some Degree,2,2,approve
+2,3,30-49,Some Degree,2,7,disapprove
+1,4,65+,Some Degree,2,2,approve
+1,3,18-29,Some Degree,2,4,neither
+1,5,30-49,College Grad,2,6,disapprove
+2,6,30-49,Postgrad,2,5,disapprove
+1,6,50-64,Postgrad,2,4,neither
+1,6,30-49,Postgrad,2,2,approve
+2,5,30-49,College Grad,2,1,approve
+1,2,50-64,HC or Less,2,2,approve
+1,4,30-49,Some Degree,2,6,disapprove
+1,5,50-64,College Grad,2,6,disapprove
+1,8,30-49,Postgrad,2,2,approve
+1,5,50-64,College Grad,2,6,disapprove
+1,3,65+,Some Degree,2,1,approve
+2,4,50-64,Some Degree,2,1,approve
+1,7,65+,Postgrad,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,4,50-64,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,3,approve
+2,3,50-64,Some Degree,2,5,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+2,6,65+,Postgrad,2,3,approve
+2,2,18-29,HC or Less,2,1,approve
+1,2,50-64,HC or Less,2,4,neither
+1,2,30-49,HC or Less,2,5,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,2,65+,HC or Less,2,1,approve
+1,8,30-49,Postgrad,2,1,approve
+2,5,65+,College Grad,2,6,disapprove
+2,2,18-29,HC or Less,2,4,neither
+1,6,50-64,Postgrad,2,6,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,6,50-64,Postgrad,2,7,disapprove
+1,8,30-49,Postgrad,2,6,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,5,50-64,College Grad,2,5,disapprove
+2,2,50-64,HC or Less,2,3,approve
+2,5,18-29,College Grad,2,7,disapprove
+2,2,65+,HC or Less,2,2,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+1,6,50-64,Postgrad,2,4,neither
+2,6,30-49,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,1,approve
+2,4,50-64,Some Degree,2,4,neither
+1,6,65+,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,2,approve
+1,5,50-64,College Grad,2,2,approve
+1,1,30-49,HC or Less,2,3,approve
+1,3,18-29,Some Degree,2,4,neither
+2,4,50-64,Some Degree,2,1,approve
+2,5,50-64,College Grad,2,4,neither
+1,5,30-49,College Grad,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+2,6,30-49,Postgrad,2,7,disapprove
+1,3,65+,Some Degree,2,2,approve
+2,3,65+,Some Degree,2,6,disapprove
+2,2,30-49,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,7,disapprove
+1,3,65+,Some Degree,2,3,approve
+1,2,50-64,HC or Less,2,7,disapprove
+1,5,18-29,College Grad,2,7,disapprove
+2,6,50-64,Postgrad,2,7,disapprove
+1,3,65+,Some Degree,2,1,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,2,65+,HC or Less,2,7,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+2,2,30-49,HC or Less,2,6,disapprove
+2,5,65+,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+1,6,50-64,Postgrad,2,6,disapprove
+1,5,50-64,College Grad,2,1,approve
+2,2,65+,HC or Less,2,6,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+2,5,18-29,College Grad,2,3,approve
+2,3,18-29,Some Degree,2,4,neither
+2,3,30-49,Some Degree,2,7,disapprove
+1,5,18-29,College Grad,2,2,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,4,65+,Some Degree,2,7,disapprove
+2,3,65+,Some Degree,2,7,disapprove
+1,6,50-64,Postgrad,2,2,approve
+2,3,30-49,Some Degree,2,7,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+2,4,30-49,Some Degree,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+1,2,50-64,HC or Less,2,2,approve
+2,4,50-64,Some Degree,2,2,approve
+2,6,65+,Postgrad,2,1,approve
+1,5,50-64,College Grad,2,4,neither
+1,5,30-49,College Grad,2,7,disapprove
+1,6,50-64,Postgrad,2,1,approve
+1,5,65+,College Grad,2,4,neither
+1,5,30-49,College Grad,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,5,disapprove
+2,4,50-64,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,3,approve
+2,5,50-64,College Grad,2,5,disapprove
+2,4,30-49,Some Degree,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,1,approve
+2,2,65+,HC or Less,2,5,disapprove
+2,2,18-29,HC or Less,2,2,approve
+2,1,65+,HC or Less,2,4,neither
+2,6,30-49,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,2,approve
+1,6,50-64,Postgrad,2,7,disapprove
+2,3,30-49,Some Degree,2,6,disapprove
+1,3,30-49,Some Degree,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+2,4,30-49,Some Degree,2,6,disapprove
+1,6,30-49,Postgrad,2,7,disapprove
+2,6,50-64,Postgrad,2,3,approve
+2,3,18-29,Some Degree,2,6,disapprove
+1,5,65+,College Grad,2,2,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,4,neither
+2,2,65+,HC or Less,2,2,approve
+2,5,50-64,College Grad,2,1,approve
+1,7,30-49,Postgrad,2,4,neither
+1,5,50-64,College Grad,2,1,approve
+1,5,30-49,College Grad,2,1,approve
+1,3,50-64,Some Degree,2,6,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+1,4,18-29,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,2,approve
+1,7,30-49,Postgrad,2,4,neither
+1,5,30-49,College Grad,2,1,approve
+1,6,30-49,Postgrad,2,2,approve
+1,2,30-49,HC or Less,2,7,disapprove
+1,3,50-64,Some Degree,2,3,approve
+2,6,30-49,Postgrad,2,2,approve
+2,6,50-64,Postgrad,2,4,neither
+1,6,30-49,Postgrad,2,6,disapprove
+2,3,65+,Some Degree,2,2,approve
+1,2,65+,HC or Less,2,1,approve
+1,3,65+,Some Degree,2,4,neither
+2,7,30-49,Postgrad,2,7,disapprove
+2,2,18-29,HC or Less,2,4,neither
+2,2,30-49,HC or Less,2,2,approve
+1,4,30-49,Some Degree,2,2,approve
+2,5,18-29,College Grad,2,7,disapprove
+1,3,65+,Some Degree,2,5,disapprove
+1,3,30-49,Some Degree,2,6,disapprove
+2,8,18-29,Postgrad,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,2,18-29,HC or Less,2,6,disapprove
+1,3,30-49,Some Degree,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,3,65+,Some Degree,2,4,neither
+2,3,65+,Some Degree,2,6,disapprove
+1,6,65+,Postgrad,2,2,approve
+1,6,30-49,Postgrad,2,2,approve
+1,3,18-29,Some Degree,2,3,approve
+2,5,30-49,College Grad,2,2,approve
+1,1,18-29,HC or Less,2,2,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,7,30-49,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,5,disapprove
+2,5,30-49,College Grad,2,1,approve
+1,6,65+,Postgrad,2,7,disapprove
+1,6,65+,Postgrad,2,2,approve
+2,8,30-49,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,6,disapprove
+1,5,30-49,College Grad,2,6,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,3,65+,Some Degree,2,7,disapprove
+2,2,65+,HC or Less,2,1,approve
+2,2,65+,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,1,approve
+1,8,30-49,Postgrad,2,1,approve
+1,8,50-64,Postgrad,2,3,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,4,50-64,Some Degree,2,3,approve
+2,3,50-64,Some Degree,2,4,neither
+1,3,65+,Some Degree,2,7,disapprove
+1,5,18-29,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,6,30-49,Postgrad,2,2,approve
+2,1,18-29,HC or Less,2,4,neither
+2,5,65+,College Grad,2,2,approve
+1,2,50-64,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,5,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,6,disapprove
+2,5,30-49,College Grad,2,3,approve
+1,4,65+,Some Degree,2,2,approve
+2,4,30-49,Some Degree,2,7,disapprove
+1,5,18-29,College Grad,2,1,approve
+1,4,50-64,Some Degree,2,2,approve
+2,7,30-49,Postgrad,2,4,neither
+2,5,18-29,College Grad,2,4,neither
+1,7,30-49,Postgrad,2,2,approve
+2,3,30-49,Some Degree,2,7,disapprove
+2,4,30-49,Some Degree,2,6,disapprove
+2,2,50-64,HC or Less,2,5,disapprove
+1,4,50-64,Some Degree,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,2,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,3,approve
+1,6,50-64,Postgrad,2,4,neither
+2,5,30-49,College Grad,2,6,disapprove
+2,3,50-64,Some Degree,2,2,approve
+1,5,30-49,College Grad,2,1,approve
+2,2,30-49,HC or Less,2,5,disapprove
+2,4,65+,Some Degree,2,3,approve
+2,3,18-29,Some Degree,2,7,disapprove
+2,5,65+,College Grad,2,5,disapprove
+1,1,30-49,HC or Less,2,2,approve
+2,5,50-64,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,1,approve
+1,6,30-49,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,2,approve
+2,1,30-49,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,3,approve
+1,6,30-49,Postgrad,2,3,approve
+1,5,50-64,College Grad,2,2,approve
+1,5,65+,College Grad,2,2,approve
+2,5,30-49,College Grad,2,3,approve
+1,3,50-64,Some Degree,2,7,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+2,3,30-49,Some Degree,2,3,approve
+1,5,50-64,College Grad,2,2,approve
+1,2,30-49,HC or Less,2,4,neither
+1,3,50-64,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+1,5,30-49,College Grad,2,7,disapprove
+2,3,50-64,Some Degree,2,2,approve
+2,6,65+,Postgrad,2,3,approve
+2,5,30-49,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,8,30-49,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,6,disapprove
+1,3,30-49,Some Degree,2,5,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,8,50-64,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,3,approve
+1,2,65+,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,4,neither
+2,6,18-29,Postgrad,2,7,disapprove
+1,3,18-29,Some Degree,2,6,disapprove
+1,3,18-29,Some Degree,2,2,approve
+1,5,65+,College Grad,2,6,disapprove
+1,3,65+,Some Degree,2,1,approve
+2,2,65+,HC or Less,2,2,approve
+1,5,30-49,College Grad,2,4,neither
+2,3,65+,Some Degree,2,3,approve
+2,5,50-64,College Grad,2,5,disapprove
+2,2,65+,HC or Less,2,3,approve
+1,3,30-49,Some Degree,2,6,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+1,4,30-49,Some Degree,2,5,disapprove
+2,1,50-64,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,2,approve
+2,4,30-49,Some Degree,2,2,approve
+1,2,30-49,HC or Less,2,7,disapprove
+1,2,65+,HC or Less,2,1,approve
+1,3,30-49,Some Degree,2,4,neither
+2,4,18-29,Some Degree,2,4,neither
+1,5,65+,College Grad,2,7,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+2,8,50-64,Postgrad,2,7,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,3,approve
+2,3,50-64,Some Degree,2,6,disapprove
+1,3,65+,Some Degree,2,6,disapprove
+2,5,18-29,College Grad,2,4,neither
+1,2,50-64,HC or Less,2,1,approve
+2,7,30-49,Postgrad,2,7,disapprove
+2,5,50-64,College Grad,2,3,approve
+1,8,65+,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,3,65+,Some Degree,2,2,approve
+2,2,65+,HC or Less,2,7,disapprove
+1,6,65+,Postgrad,2,6,disapprove
+2,3,50-64,Some Degree,2,1,approve
+2,5,65+,College Grad,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,4,neither
+2,1,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,1,approve
+1,5,65+,College Grad,2,2,approve
+1,4,65+,Some Degree,2,3,approve
+2,6,50-64,Postgrad,2,2,approve
+1,6,65+,Postgrad,2,7,disapprove
+1,6,30-49,Postgrad,2,3,approve
+1,3,65+,Some Degree,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,7,50-64,Postgrad,2,4,neither
+1,4,50-64,Some Degree,2,4,neither
+2,2,65+,HC or Less,2,7,disapprove
+2,5,65+,College Grad,2,5,disapprove
+2,3,65+,Some Degree,2,7,disapprove
+2,2,18-29,HC or Less,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+1,2,18-29,HC or Less,2,3,approve
+2,2,65+,HC or Less,2,7,disapprove
+1,2,30-49,HC or Less,2,7,disapprove
+2,2,18-29,HC or Less,2,6,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+2,2,65+,HC or Less,2,2,approve
+2,6,50-64,Postgrad,2,7,disapprove
+2,2,18-29,HC or Less,2,1,approve
+1,2,50-64,HC or Less,2,7,disapprove
+2,3,65+,Some Degree,2,1,approve
+2,3,30-49,Some Degree,2,1,approve
+1,3,30-49,Some Degree,2,5,disapprove
+1,6,65+,Postgrad,2,1,approve
+2,2,50-64,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,1,approve
+1,3,18-29,Some Degree,2,2,approve
+1,5,65+,College Grad,2,2,approve
+2,5,65+,College Grad,2,7,disapprove
+2,1,65+,HC or Less,2,1,approve
+1,5,50-64,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+2,2,30-49,HC or Less,2,5,disapprove
+2,2,30-49,HC or Less,2,3,approve
+1,3,18-29,Some Degree,2,2,approve
+1,2,30-49,HC or Less,2,1,approve
+1,5,30-49,College Grad,2,7,disapprove
+2,2,30-49,HC or Less,2,6,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,4,50-64,Some Degree,2,4,neither
+1,5,65+,College Grad,2,1,approve
+1,4,30-49,Some Degree,2,5,disapprove
+1,2,30-49,HC or Less,2,2,approve
+1,3,50-64,Some Degree,2,1,approve
+1,8,30-49,Postgrad,2,2,approve
+2,2,50-64,HC or Less,2,1,approve
+2,1,65+,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,4,50-64,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+1,3,50-64,Some Degree,2,6,disapprove
+2,3,65+,Some Degree,2,2,approve
+1,5,50-64,College Grad,2,1,approve
+2,1,50-64,HC or Less,2,3,approve
+2,2,30-49,HC or Less,2,3,approve
+2,4,65+,Some Degree,2,1,approve
+2,5,65+,College Grad,2,7,disapprove
+1,7,30-49,Postgrad,2,1,approve
+1,6,30-49,Postgrad,2,3,approve
+2,2,30-49,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,7,disapprove
+1,4,65+,Some Degree,2,3,approve
+1,8,30-49,Postgrad,2,1,approve
+2,5,18-29,College Grad,2,2,approve
+1,8,50-64,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,1,50-64,HC or Less,2,7,disapprove
+1,3,50-64,Some Degree,2,4,neither
+1,6,50-64,Postgrad,2,1,approve
+2,2,50-64,HC or Less,2,1,approve
+1,3,18-29,Some Degree,2,1,approve
+2,5,30-49,College Grad,2,4,neither
+2,6,30-49,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,5,disapprove
+1,6,50-64,Postgrad,2,4,neither
+2,5,65+,College Grad,2,7,disapprove
+2,4,50-64,Some Degree,2,6,disapprove
+1,3,50-64,Some Degree,2,2,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,2,approve
+1,6,30-49,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,3,approve
+2,5,50-64,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,2,approve
+1,4,30-49,Some Degree,2,4,neither
+1,2,30-49,HC or Less,2,6,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+1,4,18-29,Some Degree,2,6,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+1,2,18-29,HC or Less,2,3,approve
+2,5,65+,College Grad,2,1,approve
+2,3,18-29,Some Degree,2,4,neither
+2,5,65+,College Grad,2,5,disapprove
+2,6,18-29,Postgrad,2,6,disapprove
+2,6,30-49,Postgrad,2,3,approve
+1,2,30-49,HC or Less,2,2,approve
+1,6,18-29,Postgrad,2,7,disapprove
+1,3,50-64,Some Degree,2,4,neither
+1,5,65+,College Grad,2,2,approve
+1,2,65+,HC or Less,2,7,disapprove
+2,5,30-49,College Grad,2,1,approve
+2,2,18-29,HC or Less,2,5,disapprove
+1,2,30-49,HC or Less,2,4,neither
+1,4,30-49,Some Degree,2,4,neither
+2,2,65+,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,3,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,6,disapprove
+1,5,30-49,College Grad,2,5,disapprove
+2,6,50-64,Postgrad,2,3,approve
+2,4,50-64,Some Degree,2,1,approve
+2,2,65+,HC or Less,2,1,approve
+1,3,18-29,Some Degree,2,7,disapprove
+1,3,18-29,Some Degree,2,3,approve
+2,4,65+,Some Degree,2,1,approve
+2,2,50-64,HC or Less,2,2,approve
+2,5,65+,College Grad,2,2,approve
+1,3,30-49,Some Degree,2,4,neither
+1,2,18-29,HC or Less,2,5,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+1,2,50-64,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,7,disapprove
+1,8,30-49,Postgrad,2,5,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,5,30-49,College Grad,2,6,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,1,approve
+1,2,65+,HC or Less,2,7,disapprove
+2,6,50-64,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,2,approve
+2,1,18-29,HC or Less,2,6,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+1,2,30-49,HC or Less,2,3,approve
+2,5,30-49,College Grad,2,2,approve
+2,2,65+,HC or Less,2,6,disapprove
+1,5,50-64,College Grad,2,6,disapprove
+2,2,65+,HC or Less,2,3,approve
+1,6,30-49,Postgrad,2,5,disapprove
+2,5,65+,College Grad,2,2,approve
+1,2,50-64,HC or Less,2,2,approve
+1,2,65+,HC or Less,2,5,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+1,8,30-49,Postgrad,2,1,approve
+2,5,30-49,College Grad,2,7,disapprove
+1,3,65+,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,1,approve
+1,7,30-49,Postgrad,2,4,neither
+1,2,50-64,HC or Less,2,2,approve
+2,2,30-49,HC or Less,2,7,disapprove
+2,5,30-49,College Grad,2,4,neither
+1,8,30-49,Postgrad,2,1,approve
+1,2,18-29,HC or Less,2,4,neither
+2,6,65+,Postgrad,2,2,approve
+2,3,65+,Some Degree,2,2,approve
+2,2,50-64,HC or Less,2,7,disapprove
+1,3,18-29,Some Degree,2,5,disapprove
+2,6,30-49,Postgrad,2,1,approve
+1,5,65+,College Grad,2,4,neither
+2,2,30-49,HC or Less,2,1,approve
+2,5,65+,College Grad,2,1,approve
+2,3,30-49,Some Degree,2,5,disapprove
+1,4,30-49,Some Degree,2,7,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+1,2,18-29,HC or Less,2,2,approve
+2,2,18-29,HC or Less,2,7,disapprove
+2,3,50-64,Some Degree,2,2,approve
+2,1,30-49,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,2,approve
+1,5,65+,College Grad,2,2,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,2,65+,HC or Less,2,1,approve
+1,2,30-49,HC or Less,2,1,approve
+1,5,65+,College Grad,2,7,disapprove
+2,3,50-64,Some Degree,2,6,disapprove
+1,5,30-49,College Grad,2,3,approve
+1,6,50-64,Postgrad,2,7,disapprove
+2,4,18-29,Some Degree,2,3,approve
+1,5,50-64,College Grad,2,4,neither
+1,6,50-64,Postgrad,2,2,approve
+2,2,18-29,HC or Less,2,4,neither
+2,6,30-49,Postgrad,2,7,disapprove
+2,2,18-29,HC or Less,2,7,disapprove
+2,5,30-49,College Grad,2,3,approve
+1,4,65+,Some Degree,2,2,approve
+2,2,50-64,HC or Less,2,7,disapprove
+2,4,50-64,Some Degree,2,1,approve
+2,6,50-64,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,5,18-29,College Grad,2,7,disapprove
+2,3,18-29,Some Degree,2,4,neither
+2,3,50-64,Some Degree,2,4,neither
+1,3,18-29,Some Degree,2,5,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,2,18-29,HC or Less,2,4,neither
+2,4,30-49,Some Degree,2,6,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,2,approve
+2,4,18-29,Some Degree,2,7,disapprove
+2,5,65+,College Grad,2,6,disapprove
+2,4,18-29,Some Degree,2,7,disapprove
+1,4,18-29,Some Degree,2,3,approve
+1,4,18-29,Some Degree,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+1,2,18-29,HC or Less,2,4,neither
+1,2,18-29,HC or Less,2,6,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+2,6,30-49,Postgrad,2,3,approve
+1,5,30-49,College Grad,2,2,approve
+1,6,18-29,Postgrad,2,2,approve
+1,4,50-64,Some Degree,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+1,2,50-64,HC or Less,2,1,approve
+1,5,18-29,College Grad,2,5,disapprove
+1,6,30-49,Postgrad,2,5,disapprove
+1,2,18-29,HC or Less,2,1,approve
+1,6,30-49,Postgrad,2,1,approve
+2,4,30-49,Some Degree,2,5,disapprove
+1,4,30-49,Some Degree,2,7,disapprove
+2,3,50-64,Some Degree,2,2,approve
+1,5,18-29,College Grad,2,5,disapprove
+2,3,50-64,Some Degree,2,6,disapprove
+2,2,65+,HC or Less,2,1,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+2,6,50-64,Postgrad,2,5,disapprove
+1,2,18-29,HC or Less,2,5,disapprove
+1,5,30-49,College Grad,2,4,neither
+1,5,50-64,College Grad,2,3,approve
+2,2,65+,HC or Less,2,1,approve
+2,2,50-64,HC or Less,2,4,neither
+1,6,50-64,Postgrad,2,7,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+2,8,18-29,Postgrad,2,4,neither
+2,3,50-64,Some Degree,2,2,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,2,18-29,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,1,approve
+1,3,50-64,Some Degree,2,3,approve
+1,2,50-64,HC or Less,2,7,disapprove
+2,3,65+,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,6,disapprove
+1,6,30-49,Postgrad,2,7,disapprove
+1,6,50-64,Postgrad,2,4,neither
+1,3,50-64,Some Degree,2,3,approve
+2,3,65+,Some Degree,2,1,approve
+2,2,50-64,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,5,disapprove
+1,3,50-64,Some Degree,2,5,disapprove
+2,3,30-49,Some Degree,2,4,neither
+2,5,30-49,College Grad,2,4,neither
+2,2,50-64,HC or Less,2,6,disapprove
+2,2,65+,HC or Less,2,4,neither
+1,2,18-29,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,3,18-29,Some Degree,2,6,disapprove
+2,5,65+,College Grad,2,6,disapprove
+2,3,50-64,Some Degree,2,4,neither
+2,3,30-49,Some Degree,2,5,disapprove
+1,3,65+,Some Degree,2,6,disapprove
+1,5,30-49,College Grad,2,6,disapprove
+2,3,50-64,Some Degree,2,2,approve
+2,5,50-64,College Grad,2,4,neither
+1,4,50-64,Some Degree,2,3,approve
+2,2,30-49,HC or Less,2,2,approve
+1,3,65+,Some Degree,2,1,approve
+2,5,30-49,College Grad,2,3,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,5,65+,College Grad,2,2,approve
+1,5,18-29,College Grad,2,7,disapprove
+2,4,50-64,Some Degree,2,3,approve
+1,5,30-49,College Grad,2,1,approve
+2,8,30-49,Postgrad,2,3,approve
+1,6,50-64,Postgrad,2,5,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+1,8,30-49,Postgrad,2,4,neither
+2,2,65+,HC or Less,2,1,approve
+2,4,50-64,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,3,approve
+2,4,65+,Some Degree,2,4,neither
+2,5,65+,College Grad,2,1,approve
+1,3,65+,Some Degree,2,6,disapprove
+1,5,30-49,College Grad,2,2,approve
+1,5,30-49,College Grad,2,3,approve
+2,1,30-49,HC or Less,2,7,disapprove
+2,5,18-29,College Grad,2,3,approve
+2,3,50-64,Some Degree,2,7,disapprove
+1,8,30-49,Postgrad,2,1,approve
+1,2,50-64,HC or Less,2,2,approve
+1,4,65+,Some Degree,2,2,approve
+2,3,50-64,Some Degree,2,3,approve
+1,6,18-29,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,7,disapprove
+2,3,50-64,Some Degree,2,7,disapprove
+2,3,30-49,Some Degree,2,4,neither
+2,4,50-64,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,1,approve
+2,3,18-29,Some Degree,2,1,approve
+1,2,50-64,HC or Less,2,7,disapprove
+1,5,65+,College Grad,2,2,approve
+2,3,18-29,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,3,approve
+1,3,50-64,Some Degree,2,4,neither
+1,6,50-64,Postgrad,2,7,disapprove
+1,2,50-64,HC or Less,2,7,disapprove
+2,2,18-29,HC or Less,2,7,disapprove
+2,7,30-49,Postgrad,2,3,approve
+2,5,30-49,College Grad,2,7,disapprove
+1,4,65+,Some Degree,2,4,neither
+1,5,65+,College Grad,2,2,approve
+2,1,18-29,HC or Less,2,5,disapprove
+1,6,65+,Postgrad,2,3,approve
+2,5,50-64,College Grad,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+1,2,18-29,HC or Less,2,4,neither
+1,3,18-29,Some Degree,2,7,disapprove
+2,2,18-29,HC or Less,2,4,neither
+2,5,30-49,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,7,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+1,8,30-49,Postgrad,2,1,approve
+1,3,65+,Some Degree,2,1,approve
+1,6,30-49,Postgrad,2,4,neither
+2,3,30-49,Some Degree,2,7,disapprove
+1,1,30-49,HC or Less,2,3,approve
+2,4,50-64,Some Degree,2,2,approve
+1,5,65+,College Grad,2,6,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,4,neither
+2,6,30-49,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+1,4,30-49,Some Degree,2,7,disapprove
+2,7,50-64,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,5,50-64,College Grad,2,1,approve
+2,8,65+,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,1,approve
+2,2,18-29,HC or Less,2,5,disapprove
+1,2,50-64,HC or Less,2,1,approve
+1,5,65+,College Grad,2,1,approve
+2,2,30-49,HC or Less,2,7,disapprove
+1,2,30-49,HC or Less,2,1,approve
+1,2,50-64,HC or Less,2,2,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,4,65+,Some Degree,2,1,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,7,30-49,Postgrad,2,2,approve
+2,3,65+,Some Degree,2,1,approve
+2,7,30-49,Postgrad,2,1,approve
+1,3,65+,Some Degree,2,7,disapprove
+2,6,65+,Postgrad,2,1,approve
+1,8,30-49,Postgrad,2,3,approve
+1,2,30-49,HC or Less,2,2,approve
+2,3,50-64,Some Degree,2,5,disapprove
+1,2,65+,HC or Less,2,2,approve
+1,6,50-64,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,2,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,2,18-29,HC or Less,2,3,approve
+1,6,30-49,Postgrad,2,1,approve
+2,2,65+,HC or Less,2,3,approve
+1,6,30-49,Postgrad,2,1,approve
+2,5,30-49,College Grad,2,6,disapprove
+1,7,30-49,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,4,neither
+2,2,50-64,HC or Less,2,3,approve
+1,5,50-64,College Grad,2,2,approve
+1,6,18-29,Postgrad,2,1,approve
+1,4,30-49,Some Degree,2,7,disapprove
+1,3,50-64,Some Degree,2,2,approve
+1,4,30-49,Some Degree,2,2,approve
+1,5,50-64,College Grad,2,5,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+1,4,65+,Some Degree,2,7,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+2,3,18-29,Some Degree,2,1,approve
+2,3,30-49,Some Degree,2,6,disapprove
+2,3,65+,Some Degree,2,1,approve
+2,5,30-49,College Grad,2,4,neither
+1,5,30-49,College Grad,2,1,approve
+2,2,65+,HC or Less,2,2,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+1,5,30-49,College Grad,2,6,disapprove
+1,2,18-29,HC or Less,2,7,disapprove
+1,2,18-29,HC or Less,2,1,approve
+2,2,30-49,HC or Less,2,2,approve
+1,5,30-49,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,2,50-64,HC or Less,2,2,approve
+1,5,65+,College Grad,2,2,approve
+2,2,30-49,HC or Less,2,6,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+2,6,30-49,Postgrad,2,1,approve
+2,4,50-64,Some Degree,2,4,neither
+2,2,18-29,HC or Less,2,2,approve
+2,5,30-49,College Grad,2,5,disapprove
+2,6,65+,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,2,approve
+2,3,50-64,Some Degree,2,6,disapprove
+2,2,30-49,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,2,approve
+2,2,50-64,HC or Less,2,1,approve
+2,3,50-64,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+1,4,65+,Some Degree,2,7,disapprove
+1,3,18-29,Some Degree,2,1,approve
+2,3,18-29,Some Degree,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+1,6,50-64,Postgrad,2,7,disapprove
+2,5,50-64,College Grad,2,5,disapprove
+2,6,50-64,Postgrad,2,7,disapprove
+1,4,50-64,Some Degree,2,5,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+1,5,30-49,College Grad,2,1,approve
+2,6,50-64,Postgrad,2,5,disapprove
+1,5,50-64,College Grad,2,2,approve
+2,2,30-49,HC or Less,2,3,approve
+1,5,30-49,College Grad,2,2,approve
+1,3,50-64,Some Degree,2,4,neither
+2,6,50-64,Postgrad,2,2,approve
+1,3,30-49,Some Degree,2,1,approve
+2,3,50-64,Some Degree,2,7,disapprove
+1,7,30-49,Postgrad,2,1,approve
+1,5,18-29,College Grad,2,5,disapprove
+2,3,18-29,Some Degree,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,2,65+,HC or Less,2,2,approve
+1,2,65+,HC or Less,2,2,approve
+2,2,50-64,HC or Less,2,1,approve
+1,6,50-64,Postgrad,2,2,approve
+1,8,30-49,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,1,approve
+2,2,50-64,HC or Less,2,3,approve
+2,5,65+,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,4,neither
+1,2,18-29,HC or Less,2,2,approve
+1,6,65+,Postgrad,2,4,neither
+1,6,30-49,Postgrad,2,1,approve
+2,7,18-29,Postgrad,2,5,disapprove
+2,2,30-49,HC or Less,2,7,disapprove
+1,5,18-29,College Grad,2,6,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,1,approve
+2,5,30-49,College Grad,2,6,disapprove
+1,4,50-64,Some Degree,2,2,approve
+2,3,65+,Some Degree,2,2,approve
+1,3,50-64,Some Degree,2,7,disapprove
+2,1,50-64,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,6,disapprove
+1,5,30-49,College Grad,2,6,disapprove
+1,6,30-49,Postgrad,2,7,disapprove
+1,2,50-64,HC or Less,2,5,disapprove
+2,6,18-29,Postgrad,2,5,disapprove
+2,1,50-64,HC or Less,2,1,approve
+2,2,50-64,HC or Less,2,7,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,3,65+,Some Degree,2,2,approve
+1,5,50-64,College Grad,2,7,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+2,6,65+,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,1,approve
+1,2,30-49,HC or Less,2,7,disapprove
+2,3,65+,Some Degree,2,1,approve
+1,5,65+,College Grad,2,4,neither
+2,2,30-49,HC or Less,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,3,50-64,Some Degree,2,4,neither
+2,4,30-49,Some Degree,2,4,neither
+1,7,18-29,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,8,30-49,Postgrad,2,4,neither
+1,2,30-49,HC or Less,2,7,disapprove
+2,5,18-29,College Grad,2,4,neither
+1,6,65+,Postgrad,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+1,8,65+,Postgrad,2,3,approve
+1,3,30-49,Some Degree,2,7,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+2,8,30-49,Postgrad,2,1,approve
+2,3,65+,Some Degree,2,6,disapprove
+1,7,30-49,Postgrad,2,3,approve
+2,5,65+,College Grad,2,6,disapprove
+2,8,30-49,Postgrad,2,7,disapprove
+1,3,30-49,Some Degree,2,1,approve
+1,5,30-49,College Grad,2,3,approve
+2,3,30-49,Some Degree,2,6,disapprove
+2,6,65+,Postgrad,2,4,neither
+2,5,30-49,College Grad,2,4,neither
+2,3,65+,Some Degree,2,5,disapprove
+2,3,65+,Some Degree,2,2,approve
+1,5,65+,College Grad,2,7,disapprove
+2,5,18-29,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,3,approve
+2,2,18-29,HC or Less,2,3,approve
+2,5,30-49,College Grad,2,5,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,2,18-29,HC or Less,2,7,disapprove
+2,4,18-29,Some Degree,2,1,approve
+2,5,30-49,College Grad,2,3,approve
+2,2,30-49,HC or Less,2,1,approve
+2,2,18-29,HC or Less,2,2,approve
+1,5,30-49,College Grad,2,2,approve
+1,5,30-49,College Grad,2,1,approve
+2,2,50-64,HC or Less,2,2,approve
+2,6,18-29,Postgrad,2,6,disapprove
+1,5,65+,College Grad,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,7,disapprove
+2,3,50-64,Some Degree,2,3,approve
+1,4,50-64,Some Degree,2,7,disapprove
+2,6,30-49,Postgrad,2,2,approve
+2,5,65+,College Grad,2,7,disapprove
+1,8,30-49,Postgrad,2,3,approve
+1,3,65+,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,3,approve
+1,5,30-49,College Grad,2,5,disapprove
+1,2,18-29,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,4,neither
+1,1,30-49,HC or Less,2,4,neither
+2,5,30-49,College Grad,2,4,neither
+2,3,65+,Some Degree,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+1,4,50-64,Some Degree,2,6,disapprove
+1,5,18-29,College Grad,2,3,approve
+1,8,65+,Postgrad,2,4,neither
+2,2,50-64,HC or Less,2,7,disapprove
+2,6,30-49,Postgrad,2,4,neither
+1,6,30-49,Postgrad,2,2,approve
+1,5,50-64,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,6,disapprove
+1,2,65+,HC or Less,2,2,approve
+1,5,65+,College Grad,2,3,approve
+2,6,50-64,Postgrad,2,7,disapprove
+1,4,50-64,Some Degree,2,1,approve
+2,5,50-64,College Grad,2,7,disapprove
+2,4,50-64,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+2,3,18-29,Some Degree,2,2,approve
+1,7,30-49,Postgrad,2,6,disapprove
+1,3,18-29,Some Degree,2,6,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,2,30-49,HC or Less,2,1,approve
+2,2,18-29,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,1,approve
+2,5,50-64,College Grad,2,4,neither
+1,5,18-29,College Grad,2,5,disapprove
+2,2,18-29,HC or Less,2,7,disapprove
+1,4,30-49,Some Degree,2,7,disapprove
+1,7,30-49,Postgrad,2,3,approve
+2,2,30-49,HC or Less,2,1,approve
+1,6,30-49,Postgrad,2,1,approve
+1,6,30-49,Postgrad,2,2,approve
+2,6,50-64,Postgrad,2,1,approve
+1,5,50-64,College Grad,2,1,approve
+2,3,50-64,Some Degree,2,6,disapprove
+1,3,65+,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,7,disapprove
+1,2,18-29,HC or Less,2,3,approve
+2,6,30-49,Postgrad,2,7,disapprove
+2,2,50-64,HC or Less,2,4,neither
+2,4,30-49,Some Degree,2,7,disapprove
+1,2,18-29,HC or Less,2,7,disapprove
+1,3,50-64,Some Degree,2,2,approve
+2,4,30-49,Some Degree,2,1,approve
+2,6,50-64,Postgrad,2,1,approve
+2,5,50-64,College Grad,2,4,neither
+2,2,50-64,HC or Less,2,3,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,3,18-29,Some Degree,2,4,neither
+2,2,50-64,HC or Less,2,1,approve
+2,5,30-49,College Grad,2,6,disapprove
+1,3,50-64,Some Degree,2,5,disapprove
+2,5,50-64,College Grad,2,2,approve
+2,6,50-64,Postgrad,2,2,approve
+1,2,18-29,HC or Less,2,7,disapprove
+1,7,30-49,Postgrad,2,1,approve
+1,5,50-64,College Grad,2,5,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,5,30-49,College Grad,2,3,approve
+1,3,18-29,Some Degree,2,7,disapprove
+2,6,30-49,Postgrad,2,4,neither
+2,4,30-49,Some Degree,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+1,6,30-49,Postgrad,2,2,approve
+1,3,65+,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,3,50-64,Some Degree,2,3,approve
+1,7,65+,Postgrad,2,2,approve
+1,4,30-49,Some Degree,2,4,neither
+2,5,50-64,College Grad,2,2,approve
+2,2,18-29,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+1,7,30-49,Postgrad,2,1,approve
+2,3,30-49,Some Degree,2,4,neither
+2,4,50-64,Some Degree,2,6,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,6,30-49,Postgrad,2,5,disapprove
+1,1,30-49,HC or Less,2,4,neither
+2,3,50-64,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,4,neither
+2,5,30-49,College Grad,2,1,approve
+1,2,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,1,approve
+2,4,50-64,Some Degree,2,2,approve
+2,5,50-64,College Grad,2,2,approve
+1,5,30-49,College Grad,2,6,disapprove
+1,6,30-49,Postgrad,2,1,approve
+2,5,30-49,College Grad,2,1,approve
+2,1,50-64,HC or Less,2,1,approve
+1,5,65+,College Grad,2,7,disapprove
+2,6,50-64,Postgrad,2,4,neither
+1,1,30-49,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,6,disapprove
+1,6,18-29,Postgrad,2,1,approve
+2,4,65+,Some Degree,2,7,disapprove
+2,3,30-49,Some Degree,2,2,approve
+1,4,65+,Some Degree,2,7,disapprove
+2,3,65+,Some Degree,2,2,approve
+2,4,50-64,Some Degree,2,1,approve
+2,5,50-64,College Grad,2,2,approve
+2,5,30-49,College Grad,2,3,approve
+1,2,65+,HC or Less,2,1,approve
+2,5,30-49,College Grad,2,2,approve
+2,3,50-64,Some Degree,2,2,approve
+1,2,65+,HC or Less,2,3,approve
+1,4,65+,Some Degree,2,7,disapprove
+2,3,50-64,Some Degree,2,3,approve
+1,8,30-49,Postgrad,2,3,approve
+2,2,65+,HC or Less,2,3,approve
+2,5,50-64,College Grad,2,3,approve
+1,5,65+,College Grad,2,2,approve
+2,2,65+,HC or Less,2,4,neither
+1,1,65+,HC or Less,2,4,neither
+2,3,18-29,Some Degree,2,2,approve
+2,5,65+,College Grad,2,2,approve
+2,2,30-49,HC or Less,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,2,65+,HC or Less,2,3,approve
+1,3,65+,Some Degree,2,3,approve
+2,3,50-64,Some Degree,2,2,approve
+1,7,30-49,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,2,approve
+2,3,30-49,Some Degree,2,7,disapprove
+2,7,18-29,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,6,disapprove
+2,7,30-49,Postgrad,2,1,approve
+2,5,50-64,College Grad,2,2,approve
+2,2,30-49,HC or Less,2,2,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,6,disapprove
+1,4,65+,Some Degree,2,4,neither
+2,3,30-49,Some Degree,2,5,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+1,7,30-49,Postgrad,2,1,approve
+2,4,30-49,Some Degree,2,3,approve
+2,4,50-64,Some Degree,2,3,approve
+1,6,65+,Postgrad,2,7,disapprove
+1,2,65+,HC or Less,2,7,disapprove
+1,3,65+,Some Degree,2,4,neither
+2,2,30-49,HC or Less,2,7,disapprove
+1,5,65+,College Grad,2,1,approve
+1,5,30-49,College Grad,2,6,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+2,5,50-64,College Grad,2,6,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+1,8,30-49,Postgrad,2,3,approve
+1,2,30-49,HC or Less,2,4,neither
+1,4,30-49,Some Degree,2,3,approve
+1,4,65+,Some Degree,2,1,approve
+1,3,50-64,Some Degree,2,7,disapprove
+2,5,18-29,College Grad,2,2,approve
+2,3,65+,Some Degree,2,3,approve
+2,5,65+,College Grad,2,6,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+2,5,50-64,College Grad,2,1,approve
+1,3,50-64,Some Degree,2,2,approve
+2,5,30-49,College Grad,2,3,approve
+2,3,50-64,Some Degree,2,3,approve
+1,6,30-49,Postgrad,2,5,disapprove
+2,3,50-64,Some Degree,2,3,approve
+1,5,30-49,College Grad,2,1,approve
+1,5,65+,College Grad,2,1,approve
+2,5,65+,College Grad,2,7,disapprove
+1,4,30-49,Some Degree,2,5,disapprove
+2,3,50-64,Some Degree,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,2,approve
+2,3,65+,Some Degree,2,1,approve
+2,6,18-29,Postgrad,2,7,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,3,18-29,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+1,3,65+,Some Degree,2,6,disapprove
+2,3,18-29,Some Degree,2,4,neither
+2,3,18-29,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,8,30-49,Postgrad,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,5,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+2,6,65+,Postgrad,2,7,disapprove
+2,1,50-64,HC or Less,2,5,disapprove
+1,3,50-64,Some Degree,2,3,approve
+2,2,30-49,HC or Less,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+1,5,50-64,College Grad,2,5,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+1,4,50-64,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+1,3,30-49,Some Degree,2,3,approve
+1,3,18-29,Some Degree,2,6,disapprove
+2,5,30-49,College Grad,2,2,approve
+2,2,18-29,HC or Less,2,3,approve
+2,3,50-64,Some Degree,2,5,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,2,30-49,HC or Less,2,4,neither
+2,5,65+,College Grad,2,4,neither
+1,7,65+,Postgrad,2,6,disapprove
+2,4,50-64,Some Degree,2,1,approve
+2,3,18-29,Some Degree,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+1,3,50-64,Some Degree,2,6,disapprove
+1,4,65+,Some Degree,2,4,neither
+1,3,65+,Some Degree,2,3,approve
+2,5,50-64,College Grad,2,2,approve
+1,5,50-64,College Grad,2,6,disapprove
+1,5,50-64,College Grad,2,7,disapprove
+1,8,30-49,Postgrad,2,1,approve
+2,2,18-29,HC or Less,2,4,neither
+2,6,30-49,Postgrad,2,4,neither
+2,3,18-29,Some Degree,2,4,neither
+1,2,50-64,HC or Less,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,3,50-64,Some Degree,2,6,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,7,50-64,Postgrad,2,2,approve
+1,5,30-49,College Grad,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+1,3,30-49,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,2,approve
+2,5,65+,College Grad,2,7,disapprove
+1,2,30-49,HC or Less,2,4,neither
+1,5,30-49,College Grad,2,3,approve
+2,3,50-64,Some Degree,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,6,18-29,Postgrad,2,2,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,3,approve
+2,2,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,4,neither
+2,3,50-64,Some Degree,2,4,neither
+2,5,18-29,College Grad,2,7,disapprove
+1,3,65+,Some Degree,2,1,approve
+1,5,30-49,College Grad,2,6,disapprove
+2,5,50-64,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+2,6,50-64,Postgrad,2,5,disapprove
+1,3,30-49,Some Degree,2,3,approve
+1,4,30-49,Some Degree,2,4,neither
+1,3,50-64,Some Degree,2,3,approve
+1,5,50-64,College Grad,2,1,approve
+1,1,50-64,HC or Less,2,2,approve
+2,6,30-49,Postgrad,2,4,neither
+1,5,30-49,College Grad,2,5,disapprove
+1,5,65+,College Grad,2,7,disapprove
+1,3,65+,Some Degree,2,2,approve
+1,3,50-64,Some Degree,2,7,disapprove
+2,4,50-64,Some Degree,2,3,approve
+2,4,65+,Some Degree,2,2,approve
+1,5,50-64,College Grad,2,5,disapprove
+1,8,30-49,Postgrad,2,3,approve
+1,2,65+,HC or Less,2,5,disapprove
+1,4,50-64,Some Degree,2,3,approve
+1,4,65+,Some Degree,2,7,disapprove
+2,4,30-49,Some Degree,2,5,disapprove
+2,2,30-49,HC or Less,2,3,approve
+2,2,18-29,HC or Less,2,6,disapprove
+2,5,18-29,College Grad,2,2,approve
+2,4,18-29,Some Degree,2,7,disapprove
+2,2,50-64,HC or Less,2,1,approve
+2,7,30-49,Postgrad,2,5,disapprove
+1,6,50-64,Postgrad,2,1,approve
+1,6,65+,Postgrad,2,3,approve
+2,1,30-49,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,1,approve
+2,3,65+,Some Degree,2,1,approve
+2,4,50-64,Some Degree,2,5,disapprove
+2,4,50-64,Some Degree,2,2,approve
+2,2,30-49,HC or Less,2,7,disapprove
+2,5,30-49,College Grad,2,4,neither
+1,5,50-64,College Grad,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+1,5,65+,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,1,approve
+2,3,18-29,Some Degree,2,6,disapprove
+1,2,30-49,HC or Less,2,4,neither
+1,4,30-49,Some Degree,2,7,disapprove
+1,2,50-64,HC or Less,2,5,disapprove
+2,5,30-49,College Grad,2,2,approve
+2,5,50-64,College Grad,2,2,approve
+2,4,65+,Some Degree,2,2,approve
+1,2,18-29,HC or Less,2,3,approve
+2,5,18-29,College Grad,2,6,disapprove
+2,2,65+,HC or Less,2,1,approve
+2,3,50-64,Some Degree,2,3,approve
+2,6,30-49,Postgrad,2,2,approve
+2,2,65+,HC or Less,2,2,approve
+2,3,18-29,Some Degree,2,3,approve
+2,4,30-49,Some Degree,2,5,disapprove
+1,6,30-49,Postgrad,2,5,disapprove
+2,5,30-49,College Grad,2,6,disapprove
+1,2,50-64,HC or Less,2,7,disapprove
+1,3,18-29,Some Degree,2,3,approve
+2,2,50-64,HC or Less,2,1,approve
+1,5,30-49,College Grad,2,2,approve
+1,2,65+,HC or Less,2,1,approve
+2,6,50-64,Postgrad,2,7,disapprove
+1,7,30-49,Postgrad,2,7,disapprove
+1,2,30-49,HC or Less,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,4,neither
+1,2,30-49,HC or Less,2,4,neither
+2,8,18-29,Postgrad,2,4,neither
+1,5,30-49,College Grad,2,2,approve
+2,2,18-29,HC or Less,2,4,neither
+2,2,30-49,HC or Less,2,6,disapprove
+2,2,65+,HC or Less,2,4,neither
+2,2,65+,HC or Less,2,7,disapprove
+2,5,50-64,College Grad,2,4,neither
+1,3,65+,Some Degree,2,6,disapprove
+1,4,65+,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,1,approve
+2,2,50-64,HC or Less,2,3,approve
+2,5,30-49,College Grad,2,3,approve
+2,3,50-64,Some Degree,2,2,approve
+2,5,30-49,College Grad,2,6,disapprove
+1,2,30-49,HC or Less,2,7,disapprove
+2,5,65+,College Grad,2,3,approve
+2,5,18-29,College Grad,2,7,disapprove
+2,2,50-64,HC or Less,2,2,approve
+1,1,30-49,HC or Less,2,1,approve
+2,1,30-49,HC or Less,2,1,approve
+2,3,50-64,Some Degree,2,7,disapprove
+1,3,30-49,Some Degree,2,1,approve
+2,3,18-29,Some Degree,2,6,disapprove
+2,3,30-49,Some Degree,2,3,approve
+2,2,18-29,HC or Less,2,4,neither
+2,5,18-29,College Grad,2,7,disapprove
+1,2,50-64,HC or Less,2,3,approve
+2,4,65+,Some Degree,2,2,approve
+1,2,30-49,HC or Less,2,3,approve
+2,6,18-29,Postgrad,2,6,disapprove
+2,2,30-49,HC or Less,2,3,approve
+1,7,65+,Postgrad,2,7,disapprove
+2,3,65+,Some Degree,2,3,approve
+1,3,30-49,Some Degree,2,4,neither
+2,5,65+,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,3,approve
+1,7,50-64,Postgrad,2,2,approve
+2,5,50-64,College Grad,2,7,disapprove
+2,1,65+,HC or Less,2,5,disapprove
+1,5,30-49,College Grad,2,1,approve
+2,3,18-29,Some Degree,2,1,approve
+2,5,50-64,College Grad,2,3,approve
+1,2,18-29,HC or Less,2,5,disapprove
+1,2,65+,HC or Less,2,6,disapprove
+2,8,30-49,Postgrad,2,5,disapprove
+2,4,50-64,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,4,neither
+2,2,65+,HC or Less,2,1,approve
+2,4,50-64,Some Degree,2,2,approve
+2,3,50-64,Some Degree,2,7,disapprove
+2,5,30-49,College Grad,2,1,approve
+2,6,30-49,Postgrad,2,7,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,3,approve
+1,3,50-64,Some Degree,2,3,approve
+1,5,30-49,College Grad,2,2,approve
+2,2,30-49,HC or Less,2,5,disapprove
+2,5,30-49,College Grad,2,2,approve
+2,5,30-49,College Grad,2,4,neither
+1,3,30-49,Some Degree,2,7,disapprove
+2,6,30-49,Postgrad,2,1,approve
+2,2,65+,HC or Less,2,7,disapprove
+1,2,18-29,HC or Less,2,3,approve
+1,3,65+,Some Degree,2,7,disapprove
+1,5,65+,College Grad,2,6,disapprove
+2,5,18-29,College Grad,2,7,disapprove
+1,6,30-49,Postgrad,2,2,approve
+2,6,65+,Postgrad,2,7,disapprove
+2,2,18-29,HC or Less,2,6,disapprove
+1,2,30-49,HC or Less,2,7,disapprove
+2,5,50-64,College Grad,2,3,approve
+2,5,65+,College Grad,2,1,approve
+2,2,18-29,HC or Less,2,4,neither
+2,5,30-49,College Grad,2,3,approve
+2,6,50-64,Postgrad,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,4,18-29,Some Degree,2,4,neither
+2,2,65+,HC or Less,2,2,approve
+1,5,50-64,College Grad,2,7,disapprove
+2,5,18-29,College Grad,2,4,neither
+1,4,30-49,Some Degree,2,1,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,3,50-64,Some Degree,2,3,approve
+2,6,65+,Postgrad,2,7,disapprove
+2,5,18-29,College Grad,2,6,disapprove
+1,2,50-64,HC or Less,2,6,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+1,2,50-64,HC or Less,2,6,disapprove
+2,3,50-64,Some Degree,2,3,approve
+1,4,50-64,Some Degree,2,7,disapprove
+2,5,50-64,College Grad,2,1,approve
+2,6,18-29,Postgrad,2,2,approve
+2,2,50-64,HC or Less,2,2,approve
+2,5,30-49,College Grad,2,2,approve
+1,5,30-49,College Grad,2,2,approve
+2,2,65+,HC or Less,2,2,approve
+1,6,50-64,Postgrad,2,3,approve
+1,6,30-49,Postgrad,2,4,neither
+1,3,18-29,Some Degree,2,7,disapprove
+1,6,30-49,Postgrad,2,4,neither
+2,2,65+,HC or Less,2,3,approve
+1,5,65+,College Grad,2,1,approve
+1,5,50-64,College Grad,2,6,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+1,5,30-49,College Grad,2,3,approve
+2,6,65+,Postgrad,2,1,approve
+2,6,50-64,Postgrad,2,7,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+2,2,30-49,HC or Less,2,4,neither
+1,2,50-64,HC or Less,2,7,disapprove
+1,3,30-49,Some Degree,2,7,disapprove
+1,7,18-29,Postgrad,2,1,approve
+2,5,50-64,College Grad,2,5,disapprove
+1,5,18-29,College Grad,2,2,approve
+2,6,65+,Postgrad,2,7,disapprove
+1,2,30-49,HC or Less,2,2,approve
+1,4,30-49,Some Degree,2,2,approve
+2,6,50-64,Postgrad,2,7,disapprove
+1,5,50-64,College Grad,2,4,neither
+2,5,50-64,College Grad,2,1,approve
+2,7,65+,Postgrad,2,7,disapprove
+2,6,30-49,Postgrad,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+1,5,30-49,College Grad,2,7,disapprove
+2,3,30-49,Some Degree,2,4,neither
+1,5,65+,College Grad,2,7,disapprove
+2,7,30-49,Postgrad,2,1,approve
+1,5,30-49,College Grad,2,4,neither
+2,3,65+,Some Degree,2,2,approve
+1,5,30-49,College Grad,2,4,neither
+1,6,30-49,Postgrad,2,1,approve
+1,5,50-64,College Grad,2,3,approve
+1,3,65+,Some Degree,2,7,disapprove
+2,4,65+,Some Degree,2,7,disapprove
+1,3,50-64,Some Degree,2,6,disapprove
+1,5,30-49,College Grad,2,2,approve
+1,5,30-49,College Grad,2,6,disapprove
+1,5,50-64,College Grad,2,2,approve
+1,2,30-49,HC or Less,2,7,disapprove
+1,6,65+,Postgrad,2,7,disapprove
+2,4,50-64,Some Degree,2,5,disapprove
+1,5,65+,College Grad,2,2,approve
+2,6,30-49,Postgrad,2,3,approve
+1,8,30-49,Postgrad,2,1,approve
+2,5,18-29,College Grad,2,7,disapprove
+1,3,50-64,Some Degree,2,7,disapprove
+1,5,50-64,College Grad,2,2,approve
+2,6,30-49,Postgrad,2,7,disapprove
+1,2,50-64,HC or Less,2,6,disapprove
+2,6,30-49,Postgrad,2,6,disapprove
+2,4,50-64,Some Degree,2,6,disapprove
+2,5,65+,College Grad,2,7,disapprove
+1,3,30-49,Some Degree,2,3,approve
+1,3,65+,Some Degree,2,6,disapprove
+1,2,50-64,HC or Less,2,7,disapprove
+1,5,65+,College Grad,2,7,disapprove
+2,3,65+,Some Degree,2,4,neither
+2,3,18-29,Some Degree,2,6,disapprove
+1,5,18-29,College Grad,2,6,disapprove
+2,2,65+,HC or Less,2,7,disapprove
+1,6,50-64,Postgrad,2,7,disapprove
+2,3,50-64,Some Degree,2,4,neither
+2,2,50-64,HC or Less,2,6,disapprove
+1,5,50-64,College Grad,2,3,approve
+1,8,30-49,Postgrad,2,1,approve
+2,2,30-49,HC or Less,2,1,approve
+2,4,65+,Some Degree,2,1,approve
+1,6,18-29,Postgrad,2,5,disapprove
+1,3,65+,Some Degree,2,7,disapprove
+1,2,50-64,HC or Less,2,7,disapprove
+2,5,30-49,College Grad,2,2,approve
+2,6,30-49,Postgrad,2,1,approve
+2,1,30-49,HC or Less,2,4,neither
+1,6,30-49,Postgrad,2,5,disapprove
+2,7,30-49,Postgrad,2,1,approve
+1,3,18-29,Some Degree,2,1,approve
+1,3,50-64,Some Degree,2,3,approve
+2,1,18-29,HC or Less,2,1,approve
+1,5,65+,College Grad,2,7,disapprove
+2,3,65+,Some Degree,2,2,approve
+1,7,50-64,Postgrad,2,3,approve
+1,2,50-64,HC or Less,2,6,disapprove
+2,6,50-64,Postgrad,2,7,disapprove
+2,3,30-49,Some Degree,2,7,disapprove
+1,3,65+,Some Degree,2,3,approve
+2,3,50-64,Some Degree,2,2,approve
+2,3,65+,Some Degree,2,7,disapprove
