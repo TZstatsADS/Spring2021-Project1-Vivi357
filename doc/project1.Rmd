@@ -4,10 +4,10 @@ title: "IF TIME GOES BACK WITH NO COVID-19,WILL TRUMP WIN?"
 author: "Weiwei Song"
 date: "1/22/2021"
 output:
-  html_document:
-    df_print: paged
   word_document: default
   pdf_document: default
+  html_document:
+    df_print: paged
 ---
 ![ ](../figs/pademic_covid.png)
 
